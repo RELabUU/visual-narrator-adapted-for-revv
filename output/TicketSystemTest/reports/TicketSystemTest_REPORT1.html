@@ -1,0 +1,1918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The report style uses Bootstrap (http://getbootstrap.com) -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<title>Report</title>
+</head>
+<body>
+	<div class="container" style="visibility: hidden">
+		<ul class="nav navbar-nav">
+			<li><a href="#general">General</a></li>
+			<li><a href="#user-stories">User Stories</a></li>
+			<li><a href="#ontology">Ontology</a></li>
+		</ul>
+	</div>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#general">General</a></li>
+				<li><a href="#user-stories">User Stories</a></li>
+				<li><a href="#ontology">Ontology</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">	
+	<h1 class="page-header">Report: TicketSystemTest</h1>
+	<h2 id="general">General</h2>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Input file</h3>
+		</div>
+		<div class="panel-body">
+			<dl class="dl-horizontal">
+				<dt>Name</dt><dd>example_stories.txt</dd>
+				<dt>Encoding</dt><dd>cp1252</dd>
+				<dt>Non-empty lines</dt><dd>14</dd>
+			</dl>
+		</div>
+	</div>
+	<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">Run details</h3>
+			</div>
+			<div class="panel-body">
+			<h4>Parsed User Stories</h4>
+			<div class="progress">
+				<div class="progress-bar progress-bar-success" style="width: 85.71428571428571%">
+					Success: 12 User Stories (85.71%)
+				</div>
+				<div class="progress-bar progress-bar-danger" style="width: 14.285714285714285%">
+					Failed: 2 User Stories (14.29%)
+				</div>
+			</div>	
+					<p><span class="label label-danger">FAILED: Could not find a main object</span> User Story 2: <kbd>As a Visitor, I can log in.
+</kbd></p>
+					<p><span class="label label-danger">FAILED: Could not find a main object</span> User Story 3: <kbd>As a Visitor, I am able to log out.
+</kbd></p>
+			<div class="alert alert-warning">These User Stories are not included in any further statistics or ontology generation</div>
+			<h4>Time elapsed</h4>
+		</div>
+		<table class="table">
+			<thead>
+
+				<tr><th>Part</th><th>Time (s)</th></tr>
+			</thead>
+			<tbody>
+					<tr><td>Initializing Natural Language Processor (<em>spaCy</em> v0.101.0)</td><td>23.88063</td></tr>
+					<tr><td>Mining User Stories</td><td>0.47344</td></tr>
+					<tr><td>Creating Factor Matrix</td><td>10.98701</td></tr>
+					<tr><td>Generating Manchester Ontology</td><td>0.05915</td></tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Output files</h3>
+		</div>
+		<table class="table">
+			<thead>
+				<tr><th>File</th><th>Location</th></tr>
+			</thead>
+			<tbody>
+				<tr><td>Manchester Ontology</td><td><a href="C:\Users\c\Desktop\VisualNarrator-masteroutput/TicketSystemTest/ontology/TicketSystemTest1.omn">output/TicketSystemTest/ontology/TicketSystemTest1.omn</a></td></tr>
+			</tbody>
+		</table>
+	</div>
+
+	<h2 id="user-stories">User Stories</h2>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 1</span>
+					<div style="display: inline-block; margin: 0 1em">As a Visitor, I can create a new account.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>Visitor</td>
+						<td>I</td>
+						<td>can</td>
+						<td>create</td>
+						<td>a</td>
+						<td>new</td>
+						<td>account</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>JJ</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd>As a</kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd>I can</kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>Visitor</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd>I create a new account</kbd></dd>
+				<h4>Role</h4>
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd>Visitor</kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>create</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>account</kbd>
+					with phrase <kbd>a new account</kbd>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 4</span>
+					<div style="display: inline-block; margin: 0 1em">As a Visitor, I want to choose an event so that I can book a ticket for that event.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>Visitor</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>choose</td>
+						<td>an</td>
+						<td>event</td>
+						<td>so</td>
+						<td>that</td>
+						<td>I</td>
+						<td>can</td>
+						<td>book</td>
+						<td>a</td>
+						<td>ticket</td>
+						<td>for</td>
+						<td>that</td>
+						<td>event</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADP</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>IN</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd>As a</kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd>I want to</kbd></dd>
+					<dt>Ends indicator</dt>
+					<dd><kbd>So that</kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>Visitor</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd>I choose an event</kbd></dd>
+					<dt>Ends</dt>
+					<dd><kbd>I book a ticket for that event</kbd></dd>
+				<h4>Role</h4>
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd>Visitor</kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>choose</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>event</kbd>
+					with phrase <kbd>an event</kbd>
+					</dd>
+				</dl>
+				<h4>Ends</h4>
+				<dl>
+					<dt>Free form</dt>
+					<dd><kbd>I book a ticket for that event</kbd></dd>
+					<dt>Subject</dt>
+					<dd>
+						Found <kbd>I</kbd>, so it was replaced with the functional role
+					</dd>
+					<dt>Verb</dt>
+					<dd>
+					<kbd>book</kbd>
+					</dd>
+					<dt>Object</dt> 
+					<dd>
+						<kbd>ticket</kbd>
+					with phrase <kbd>a ticket</kbd>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 5</span>
+					<div style="display: inline-block; margin: 0 1em">As a Visitor, I want to filter on event type, so that I can only see events of the type I want.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>Visitor</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>filter</td>
+						<td>on</td>
+						<td>event</td>
+						<td>type</td>
+						<td>so</td>
+						<td>that</td>
+						<td>I</td>
+						<td>can</td>
+						<td>only</td>
+						<td>see</td>
+						<td>events</td>
+						<td>of</td>
+						<td>the</td>
+						<td>type</td>
+						<td>I</td>
+						<td>want</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>ADP</td>
+						<td>NOUN</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADP</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>ADV</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>IN</td>
+						<td>NN</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>IN</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>RB</td>
+						<td>VB</td>
+						<td>NNS</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>PRP</td>
+						<td>VBP</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd>As a</kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd>I want to</kbd></dd>
+					<dt>Ends indicator</dt>
+					<dd><kbd>So that</kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>Visitor</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd>I filter on event type</kbd></dd>
+					<dt>Ends</dt>
+					<dd><kbd>I only see events of the type I want</kbd></dd>
+				<h4>Role</h4>
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd>Visitor</kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>filter on</kbd> (type III phrasal verb)
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+					<kbd>event type</kbd> (compound)
+					with phrase <kbd>event type</kbd>
+					</dd>
+				</dl>
+				<h4>Ends</h4>
+				<dl>
+					<dt>Free form</dt>
+					<dd><kbd>I only see events of the type I want</kbd></dd>
+					<dt>Subject</dt>
+					<dd>
+						Found <kbd>I</kbd>, so it was replaced with the functional role
+					</dd>
+					<dt>Verb</dt>
+					<dd>
+					<kbd>see</kbd>
+					</dd>
+					<dt>Object</dt> 
+					<dd>
+						<kbd>events</kbd>
+					with phrase <kbd>events</kbd>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 6</span>
+					<div style="display: inline-block; margin: 0 1em">As a Visitor, I can rename my account.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>Visitor</td>
+						<td>I</td>
+						<td>can</td>
+						<td>rename</td>
+						<td>my</td>
+						<td>account</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>PRP$</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd>As a</kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd>I can</kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>Visitor</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd>I rename my account</kbd></dd>
+				<h4>Role</h4>
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd>Visitor</kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>rename</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>account</kbd>
+					with phrase <kbd>my account</kbd>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 7</span>
+					<div style="display: inline-block; margin: 0 1em">As a Visitor, I can change my account password.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>Visitor</td>
+						<td>I</td>
+						<td>can</td>
+						<td>change</td>
+						<td>my</td>
+						<td>account</td>
+						<td>password</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>PRP$</td>
+						<td>NN</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd>As a</kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd>I can</kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>Visitor</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd>I change my account password</kbd></dd>
+				<h4>Role</h4>
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd>Visitor</kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>change</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+					<kbd>account password</kbd> (compound)
+					with phrase <kbd>my account password</kbd>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 8</span>
+					<div style="display: inline-block; margin: 0 1em">As a Visitor, I am able to search for an event.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>Visitor</td>
+						<td>I</td>
+						<td>am</td>
+						<td>able</td>
+						<td>to</td>
+						<td>search</td>
+						<td>for</td>
+						<td>an</td>
+						<td>event</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>JJ</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd>As a</kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd>I am able to</kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>Visitor</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd>I search for an event</kbd></dd>
+				<h4>Role</h4>
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd>Visitor</kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>search for</kbd> (type III phrasal verb)
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>event</kbd>
+					with phrase <kbd>an event</kbd>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 9</span>
+					<div style="display: inline-block; margin: 0 1em">As a Visitor, I am able to purchase multiple tickets.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>Visitor</td>
+						<td>I</td>
+						<td>am</td>
+						<td>able</td>
+						<td>to</td>
+						<td>purchase</td>
+						<td>multiple</td>
+						<td>tickets</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>JJ</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>JJ</td>
+						<td>NNS</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd>As a</kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd>I am able to</kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>Visitor</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd>I purchase multiple tickets</kbd></dd>
+				<h4>Role</h4>
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd>Visitor</kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>purchase</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>tickets</kbd>
+					with phrase <kbd>multiple tickets</kbd>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 10</span>
+					<div style="display: inline-block; margin: 0 1em">As a Visitor, I want to see the ticket price.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>Visitor</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>see</td>
+						<td>the</td>
+						<td>ticket</td>
+						<td>price</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd>As a</kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd>I want to</kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>Visitor</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd>I see the ticket price</kbd></dd>
+				<h4>Role</h4>
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd>Visitor</kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>see</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+					<kbd>ticket price</kbd> (compound)
+					with phrase <kbd>the ticket price</kbd>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 11</span>
+					<div style="display: inline-block; margin: 0 1em">As a Visitor, I want to choose a type of ticket.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>Visitor</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>choose</td>
+						<td>a</td>
+						<td>type</td>
+						<td>of</td>
+						<td>ticket</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd>As a</kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd>I want to</kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>Visitor</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd>I choose a type of ticket</kbd></dd>
+				<h4>Role</h4>
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd>Visitor</kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>choose</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>type</kbd>
+					with phrase <kbd>a type</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>of ticket</kbd></dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 12</span>
+					<div style="display: inline-block; margin: 0 1em">As a Visitor, I want to provide my personal details to purchase a ticket.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>Visitor</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>provide</td>
+						<td>my</td>
+						<td>personal</td>
+						<td>details</td>
+						<td>to</td>
+						<td>purchase</td>
+						<td>a</td>
+						<td>ticket</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>ADJ</td>
+						<td>ADJ</td>
+						<td>NOUN</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>PRP$</td>
+						<td>JJ</td>
+						<td>NNS</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd>As a</kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd>I want to</kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>Visitor</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd>I provide my personal details to purchase a ticket</kbd></dd>
+				<h4>Role</h4>
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd>Visitor</kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>provide</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>details</kbd>
+					with phrase <kbd>my personal details</kbd>
+					</dd>
+					<dt>Free form</dt>
+					<dd><kbd>to purchase a ticket</kbd></dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 13</span>
+					<div style="display: inline-block; margin: 0 1em">As a Visitor, I want to choose a payment method so that I can buy a ticket.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>Visitor</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>choose</td>
+						<td>a</td>
+						<td>payment</td>
+						<td>method</td>
+						<td>so</td>
+						<td>that</td>
+						<td>I</td>
+						<td>can</td>
+						<td>buy</td>
+						<td>a</td>
+						<td>ticket</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>NOUN</td>
+						<td>NOUN</td>
+						<td>ADP</td>
+						<td>ADP</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>NN</td>
+						<td>NN</td>
+						<td>IN</td>
+						<td>IN</td>
+						<td>PRP</td>
+						<td>MD</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd>As a</kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd>I want to</kbd></dd>
+					<dt>Ends indicator</dt>
+					<dd><kbd>So that</kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>Visitor</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd>I choose a payment method</kbd></dd>
+					<dt>Ends</dt>
+					<dd><kbd>I buy a ticket</kbd></dd>
+				<h4>Role</h4>
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd>Visitor</kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>choose</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+					<kbd>payment method</kbd> (compound)
+					with phrase <kbd>a payment method</kbd>
+					</dd>
+				</dl>
+				<h4>Ends</h4>
+				<dl>
+					<dt>Free form</dt>
+					<dd><kbd>I buy a ticket</kbd></dd>
+					<dt>Subject</dt>
+					<dd>
+						Found <kbd>I</kbd>, so it was replaced with the functional role
+					</dd>
+					<dt>Verb</dt>
+					<dd>
+					<kbd>buy</kbd>
+					</dd>
+					<dt>Object</dt> 
+					<dd>
+						<kbd>ticket</kbd>
+					with phrase <kbd>a ticket</kbd>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">
+				<div class="row">
+					<span class="label label-success" style="display: inline-block; margin-left: 1em">User Story 14</span>
+					<div style="display: inline-block; margin: 0 1em">As a Visitor, I want to receive a purchased ticket.
+</div>
+				</h3>
+			</div>
+			<div class="panel-body">
+				<h4>Part-of-speech tags</h4>
+				<table class="table">
+					<tr><td></td>
+						<td>As</td>
+						<td>a</td>
+						<td>Visitor</td>
+						<td>I</td>
+						<td>want</td>
+						<td>to</td>
+						<td>receive</td>
+						<td>a</td>
+						<td>purchased</td>
+						<td>ticket</td>
+					</tr>
+					<tr><td><strong>Universal</strong></td>
+						<td>ADP</td>
+						<td>DET</td>
+						<td>PROPN</td>
+						<td>PRON</td>
+						<td>VERB</td>
+						<td>PART</td>
+						<td>VERB</td>
+						<td>DET</td>
+						<td>VERB</td>
+						<td>NOUN</td>
+					</tr>
+					<tr><td><strong>Penn Treebank</strong></td>
+						<td>IN</td>
+						<td>DT</td>
+						<td>NNP</td>
+						<td>PRP</td>
+						<td>VBP</td>
+						<td>TO</td>
+						<td>VB</td>
+						<td>DT</td>
+						<td>VBN</td>
+						<td>NN</td>
+					</tr>
+				</table>
+				<h4>Format</h4>
+				<dl>
+					<dt>Role indicator</dt>
+					<dd><kbd>As a</kbd></dd>
+					<dt>Means indicator</dt> 
+					<dd><kbd>I want to</kbd></dd>
+				</dl>
+				<h4>Simplified</h4>
+				<dl>
+					<dt>Role</dt>
+					<dd><kbd>Visitor</kbd></dd>
+					<dt>Means</dt> 
+					<dd><kbd>I receive a purchased ticket</kbd></dd>
+				<h4>Role</h4>
+				<dl>				
+					<dt>Functional role<dt>
+					<dd>
+					<kbd>Visitor</kbd>
+					</dd>
+				</dl>
+				<h4>Means</h4>
+				<dl>
+					<dt>Main verb</dt>
+					<dd>
+					<kbd>receive</kbd>
+					</dd>
+					<dt>Main object</dt> 
+					<dd>
+						<kbd>ticket</kbd>
+					with phrase <kbd>a purchased ticket</kbd>
+					</dd>
+				</dl>
+			</div>
+		</div>
+
+	<h2 id="ontology">Manchester Ontology</h2>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Generation settings</h3>
+		</div>
+		<div class="panel-body">
+			<h4>Threshold</h4>
+			1.0
+			<div class="alert alert-warning">Every word below the threshold will not be used to make any ontology classes or relationships</div>
+			<h4>Absolute weights (base = 1)</h4>	
+			<dl class="dl-horizontal">
+				<dt>Functional role</dt><dd>1</dd>
+				<dt>Main objects</dt><dd>1</dd>
+				<dt>Noun in free form means</dt><dd>0.7</dd>
+				<dt>Noun in free form ends</dt><dd>0.5</dd>
+			</dl>
+			<h4>Relative weights</h4>	
+			<dl class="dl-horizontal">
+				<dt>Compound (compared to parent)</dt><dd>0.66</dd>
+			</dl>
+		</div>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Obtained weights</h3>
+		</div>
+		<div class="panel-body">
+			<p>Stop words with a weight of 0 and punctuation marks were removed from the list below.</p>
+			<p>Classes above the threshold (1.0) are highlighted in <span class="bg-success">green</span>.</p>
+		</div>
+			<table class="table">
+				<thead>
+					<tr><th>Case</th><th>Weight</th></tr>
+				</thead>
+				<tbody>
+				<tr class="success">
+				<td>Visitor</td><td>12.0</td>
+				</tr>
+				<tr class="success">
+				<td>Ticket</td><td>5.06</td>
+				</tr>
+				<tr class="success">
+				<td>Event</td><td>3.66</td>
+				</tr>
+				<tr class="success">
+				<td>Account</td><td>2.66</td>
+				</tr>
+				<tr class="success">
+				<td>Type</td><td>2.5</td>
+				</tr>
+				<tr class="success">
+				<td>Method</td><td>1.0</td>
+				</tr>
+				<tr class="success">
+				<td>Detail</td><td>1.0</td>
+				</tr>
+				<tr class="success">
+				<td>Price</td><td>1.0</td>
+				</tr>
+				<tr class="success">
+				<td>Password</td><td>1.0</td>
+				</tr>
+				<tr>
+				<td>Payment</td><td>0.66</td>
+				</tr>
+				<tr>
+				<td>For</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Out</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>The</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Personal</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Only</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>In</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>On</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>An</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>New</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>My</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Multiple</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Log</td><td>0.0</td>
+				</tr>
+				<tr>
+				<td>Of</td><td>0.0</td>
+				</tr>
+				</tbody>
+			</table>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Generated classes</h3>
+		</div>
+			<table class="table">
+				<thead>
+					<tr><th>Type</th><th>Class</th><th>Parent</th><th>Occurs in</th></tr>
+				</thead>
+				<tbody>
+					<tr>
+					<td>FunctionalRole</td><td>Visitor</td><td></td><td>1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14</td>
+					</tr>
+					<tr>
+					<td></td><td>Account</td><td></td><td>1, 6, 7</td>
+					</tr>
+					<tr>
+					<td></td><td>Event</td><td></td><td>4, 5, 8</td>
+					</tr>
+					<tr>
+					<td></td><td>Ticket</td><td></td><td>4, 9, 10, 11, 12, 13, 14</td>
+					</tr>
+					<tr>
+					<td></td><td>Event Type</td><td>Type</td><td>5</td>
+					</tr>
+					<tr>
+					<td></td><td>Type</td><td></td><td>5, 11</td>
+					</tr>
+					<tr>
+					<td></td><td>Account Password</td><td>Password</td><td>7</td>
+					</tr>
+					<tr>
+					<td></td><td>Password</td><td></td><td>7</td>
+					</tr>
+					<tr>
+					<td></td><td>Ticket Price</td><td>Price</td><td>10</td>
+					</tr>
+					<tr>
+					<td></td><td>Price</td><td></td><td>10</td>
+					</tr>
+					<tr>
+					<td></td><td>Detail</td><td></td><td>12</td>
+					</tr>
+					<tr>
+					<td></td><td>Method</td><td></td><td>13</td>
+					</tr>
+				</tbody>
+			</table>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">Generated relationships</h3>
+		</div>
+			<table class="table">
+				<thead>
+					<tr><th>Subject</th><th>Predicate</th><th>Object</th><th>Occurs in</th></tr>
+				</thead>
+				<tbody>
+					<tr>
+					<td>Visitor</td><td>Create</td><td>Account</td><td>1</td>
+					</tr>
+					<tr>
+					<td>Visitor</td><td>Choose</td><td>Event</td><td>4</td>
+					</tr>
+					<tr>
+					<td>Visitor</td><td>Book</td><td>Ticket</td><td>4</td>
+					</tr>
+					<tr>
+					<td>Event Type</td><td>isa</td><td>Type</td><td>5</td>
+					</tr>
+					<tr>
+					<td>Event</td><td>Type</td><td>Event Type</td><td>5</td>
+					</tr>
+					<tr>
+					<td>Visitor</td><td>Filter On</td><td>Event Type</td><td>5</td>
+					</tr>
+					<tr>
+					<td>Visitor</td><td>See</td><td>Event</td><td>5</td>
+					</tr>
+					<tr>
+					<td>Visitor</td><td>Rename</td><td>Account</td><td>6</td>
+					</tr>
+					<tr>
+					<td>Account Password</td><td>isa</td><td>Password</td><td>7</td>
+					</tr>
+					<tr>
+					<td>Account</td><td>Password</td><td>Account Password</td><td>7</td>
+					</tr>
+					<tr>
+					<td>Visitor</td><td>Change</td><td>Account Password</td><td>7</td>
+					</tr>
+					<tr>
+					<td>Visitor</td><td>Search For</td><td>Event</td><td>8</td>
+					</tr>
+					<tr>
+					<td>Visitor</td><td>Purchase</td><td>Ticket</td><td>9</td>
+					</tr>
+					<tr>
+					<td>Ticket Price</td><td>isa</td><td>Price</td><td>10</td>
+					</tr>
+					<tr>
+					<td>Ticket</td><td>Price</td><td>Ticket Price</td><td>10</td>
+					</tr>
+					<tr>
+					<td>Visitor</td><td>See</td><td>Ticket Price</td><td>10</td>
+					</tr>
+					<tr>
+					<td>Visitor</td><td>Choose</td><td>Type</td><td>11</td>
+					</tr>
+					<tr>
+					<td>Visitor</td><td>Provide</td><td>Detail</td><td>12</td>
+					</tr>
+					<tr>
+					<td>Visitor</td><td>Buy</td><td>Ticket</td><td>13</td>
+					</tr>
+					<tr>
+					<td>Visitor</td><td>Receive</td><td>Ticket</td><td>14</td>
+					</tr>
+				</tbody>
+			</table>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-body">
+			The output can be found at <a href="C:\Users\c\Desktop\VisualNarrator-masteroutput/TicketSystemTest/ontology/TicketSystemTest1.omn">output/TicketSystemTest/ontology/TicketSystemTest1.omn</a>, which can be used to analyze and visualize the ontology.
+		</div>
+		<div class="panel-footer">
+				<span class="text-muted">
+					# 
+					Generated 
+					with 
+					Visual 
+					Narrator 
+				</span>
+				<br>
+					Prefix: 
+					: 
+					<http://fakesite.org/ticketsystemtest.owl#> 
+				<br>
+					Prefix: 
+					owl: 
+					<http://www.w3.org/2002/07/owl#> 
+				<br>
+					Prefix: 
+					rdf: 
+					<http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+				<br>
+					Prefix: 
+					rdfs: 
+					<http://www.w3.org/2000/01/rdf-schema#> 
+				<br>
+					Prefix: 
+					xsd: 
+					<http://www.w3.org/2001/XMLSchema#> 
+				<br>
+					Prefix: 
+					dc: 
+					<http://purl.org/dc/elements/1.1/> 
+				<br>
+					Prefix: 
+					onto: 
+					<http://fakesite.org/ticketsystemtest.owl#> 
+				<br>
+					 
+				<br>
+					Ontology: 
+					<:> 
+				<br>
+					 
+				<br>
+					Annotations: 
+				<br>
+					&nbsp;
+						dc:title 
+					"TicketSystemTest", 
+				<br>
+					&nbsp;
+						dc:creator 
+					"Visual 
+					Narrator", 
+				<br>
+					&nbsp;
+						rdfs:comment 
+					"Generated 
+					with 
+					Visual 
+					Narrator" 
+				<br>
+					 
+				<br>
+					AnnotationProperty: 
+					dc:creator 
+				<br>
+					 
+				<br>
+					AnnotationProperty: 
+					dc:title 
+				<br>
+					 
+				<br>
+					 
+				<br>
+				<span class="text-muted">
+					# 
+					Relationships 
+				</span>
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canFilterOn 
+				<br>
+					&nbsp;
+						Domain: 
+					:Visitor 
+				<br>
+					&nbsp;
+						Range: 
+					:EventType 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:hasPrice 
+				<br>
+					&nbsp;
+						Domain: 
+					:Ticket 
+				<br>
+					&nbsp;
+						Range: 
+					:TicketPrice 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canReceive 
+				<br>
+					&nbsp;
+						Domain: 
+					:Visitor 
+				<br>
+					&nbsp;
+						Range: 
+					:Ticket 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canSee1 
+				<br>
+					&nbsp;
+						Domain: 
+					:Visitor 
+				<br>
+					&nbsp;
+						Range: 
+					:Event 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canSee2 
+				<br>
+					&nbsp;
+						Domain: 
+					:Visitor 
+				<br>
+					&nbsp;
+						Range: 
+					:TicketPrice 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:hasPassword 
+				<br>
+					&nbsp;
+						Domain: 
+					:Account 
+				<br>
+					&nbsp;
+						Range: 
+					:AccountPassword 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canPurchase 
+				<br>
+					&nbsp;
+						Domain: 
+					:Visitor 
+				<br>
+					&nbsp;
+						Range: 
+					:Ticket 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canBook 
+				<br>
+					&nbsp;
+						Domain: 
+					:Visitor 
+				<br>
+					&nbsp;
+						Range: 
+					:Ticket 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canCreate 
+				<br>
+					&nbsp;
+						Domain: 
+					:Visitor 
+				<br>
+					&nbsp;
+						Range: 
+					:Account 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:hasType 
+				<br>
+					&nbsp;
+						Domain: 
+					:Event 
+				<br>
+					&nbsp;
+						Range: 
+					:EventType 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canChange 
+				<br>
+					&nbsp;
+						Domain: 
+					:Visitor 
+				<br>
+					&nbsp;
+						Range: 
+					:AccountPassword 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canSearchFor 
+				<br>
+					&nbsp;
+						Domain: 
+					:Visitor 
+				<br>
+					&nbsp;
+						Range: 
+					:Event 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canChoose1 
+				<br>
+					&nbsp;
+						Domain: 
+					:Visitor 
+				<br>
+					&nbsp;
+						Range: 
+					:Event 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canChoose2 
+				<br>
+					&nbsp;
+						Domain: 
+					:Visitor 
+				<br>
+					&nbsp;
+						Range: 
+					:Type 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canProvide 
+				<br>
+					&nbsp;
+						Domain: 
+					:Visitor 
+				<br>
+					&nbsp;
+						Range: 
+					:Detail 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canBuy 
+				<br>
+					&nbsp;
+						Domain: 
+					:Visitor 
+				<br>
+					&nbsp;
+						Range: 
+					:Ticket 
+				<br>
+					 
+				<br>
+					<span class="text-primary">ObjectProperty: </span>
+					:canRename 
+				<br>
+					&nbsp;
+						Domain: 
+					:Visitor 
+				<br>
+					&nbsp;
+						Range: 
+					:Account 
+				<br>
+					 
+				<br>
+				<span class="text-muted">
+					# 
+					Classes 
+				</span>
+				<br>
+					<span class="text-success">Class: </span>
+					:Visitor 
+				<br>
+					&nbsp;
+						Annotations: 
+				<br>
+					&nbsp;
+							rdfs:comment 
+					"Functional 
+					Role" 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Account 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Event 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Ticket 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:EventType 
+				<br>
+					&nbsp;
+						SubClassOf: 
+					:Type 
+				<br>
+					&nbsp;
+						Annotations: 
+				<br>
+					&nbsp;
+							rdfs:label 
+					"Event 
+					Type" 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Type 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:AccountPassword 
+				<br>
+					&nbsp;
+						SubClassOf: 
+					:Password 
+				<br>
+					&nbsp;
+						Annotations: 
+				<br>
+					&nbsp;
+							rdfs:label 
+					"Account 
+					Password" 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Password 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:TicketPrice 
+				<br>
+					&nbsp;
+						SubClassOf: 
+					:Price 
+				<br>
+					&nbsp;
+						Annotations: 
+				<br>
+					&nbsp;
+							rdfs:label 
+					"Ticket 
+					Price" 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Price 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Detail 
+				<br>
+					 
+				<br>
+					 
+				<br>
+					<span class="text-success">Class: </span>
+					:Method 
+				<br>
+					 
+				<br>
+					 
+				<br>
+		</div>
+	</div>		
+</div>
+	<footer class="footer">
+		<div class="container">
+			<p class="text-muted">Generated with Visual Narrator</p>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,104 @@
+As a system administrator I can run a script that installs the Neurohub node onto a virgin Ubuntu operating system.
+As a system administrator I can run a script that tests to see if a Neurohub installation is functioning correctly
+As a release engineer I can call a script to execute acceptance tests against a Neurohub installation and report back the results
+As an investigator I can view the acceptance test results so that I can understand how feature-complete the Neurohub node currently is
+As an MRI operator I can digitally record the responses that subjects make when completing paper-based forms
+As a user I can navigate forwards and backwards between log books and log book pages without having to use my browser's back button
+As a lab administrator I can theme the Web interface graphics/colours.
+As a systems administrator I can install Neurohub dependencies into an Ubuntu 10.04 LTS machine using the normal Ubuntu package management tools.
+As a researcher I can create a log book page for an experiment and attach a file to this page.
+As a researcher I can create a log book page for an experiment and attach a directory that contains multiple files
+As a researcher I can upload files prior to having them attached to a log book page.
+As a researcher I can upload files prior to having them attached to a log book page using the web interface.
+As a researcher I can upload files prior to having them attached to a log book page using a mapped network drive.
+As a researcher I can attach currently non-attached files to a log book page.
+As a researcher, the system will alert me of any unattached files that are in my workspace.
+As a researcher, I can download files attached to an experiment using my Web browser.
+As a researcher, I can access files stored in my Neurohub workspace, using a network drive attached to my workstation.
+As a researcher I can create a log book page.
+As a release engineer I can configure nightly builds that automatically perform a Neurohub installation on a **virgin operating system**, execute tests and report back results, without requiring any **manual input/interaction**.
+As a supervisor I can view what my researchers were doing on a given date or period of time
+As a user I can upload large files of over 1GB in size
+As a user I can assign tags to files that I have uploaded
+As a user I can assign bespoke information to a file dependent on its type
+As a user I can filter the files I get from search results based on their (MIME) type
+As a user the tags that I use are part of a controlled vocabulary
+As a user I want to make uploaded data files to be non-modifiable
+As a user I want to be able to make predicated links between files
+As a user I want to restrict what can be entered to a metadata field
+As a user I want files I might accidentally delete to be restorable
+As a user I want to be able to revert to an older version of an uploaded file
+As a user I want a visual way of viewing particular files uploaded over a time period
+As a user I want to be able to associate together files involved in a experiment.
+As a system administrator there should be a managed backup protocol for the system
+As a user I should be able enter metadata / describe an experiment protocol before a file is even created
+As lab administrator(s) I should have increased access to the system to support regular users. See Solution research" for further information."
+As a user I want to be able to link together experimental runs to build an experiment
+As a lab administrator I should be able to create page templates with bespoke metadata fields
+As a user I want to capture the same metadata for each file created in an experimental run
+As a lab administrator I want a way of managing worm strain stocks that is integrated with Wormbase
+As a user I want to search for and download human-readable experimental protocols
+As a user I want to be able to modify or branch an experimental protocol, whilst retaining the original
+As a user I want to be able to view how an experimental protocol has evolved over time
+As a user I want to be able to create a protocol 'run' and assign metadata to any 'run' stage
+As a user I want to be able to prove definitively that I created a page on a certain date
+As a user I want to be able to manage the references / papers I have investigated
+As a user I want to search specifically for files rather than log book pages
+As a user I can limit my search to a particular set of log books
+As a user I can limit my search results to one or more log book sections from one or more log books
+As a user I can download files directly from the search results page
+As a user I can see the provenance of the page (e.g. its log book / log book section) as part of the search results
+As a user I can attach multiple files at once to a log book page
+As a user I want to be able to download multiple files from the search results in one go
+As a user I want to be able to draw tables using HTML tags as part of the content of a log book page
+As a lab member I want to be able to view events and equipment bookings within the group
+As a user I can store worm behaviour videos with an encoding that can be analysed by the worm analysis software written by Christopher James
+As a system administrator I can migrate data from an older version of NeuroHub to the current version
+As a user adding important news items to Neurohub, I would like the system to also forward the items to an external mailing list
+As a user, I want to be able to view and update an inventory of of the equipment and consumables that are present in the centre
+As a user working on proposals, I want to have a spreadsheet hosted within the Neurohub Web page so that I can edit and calculate costs collaboratively with others working on the proposal
+As a supervisor, I would like to be able to create feedback forms within Neurohub, that my students can fill in and submit, in order to provide me with feedback about the course that they attended.
+As a user posting content to Neurohub, I would like to have the option to tell Neurohub to push the content to my Twitter feed at the same time.
+As a user I want to either keep a log book entry private or share it with individuals rather than groups
+As a user running a work flow, I want details of the work flow's execution to be recorded in a neurohub log book
+As a user I would like my Twitter Tweets to appear in Neurohub, so that other researchers in the centre can see what I am up to
+As a user changing my password in the Neurohub Node's Web interface, I want the change to be applied automatically to the Neurohub file repository as well, so that I only ever have to change my password in one place.
+As a user, I would like to be able to VIEW the group's shared calendars via the Neurohub Nodes' Web page as well as on my mobile device
+As a user I can sync events created in NeuroHub with a web-based Calendar such as Google Calendar.
+As a researcher using the Neurohub Web interface, I would like the ability to insert Greek symbols into my logbook entries.
+As a user processing data, I want the ability to move multiple files around and rearrange them using the Neurohub file browser
+As a researcher in Southampton Neuroscience, I want to be able to point my Mendeley client at a group-wide shared repository of research papers and get notifications via Mendeley when new content is added.
+As a researcher, I want electronic support for keeping track of which data sets (and revisions) were used/output/modified as part of a particular experiment.
+As a user, I want a mechanism for electronically sharing papers and notes with other researchers, so that we can collaborate effectively
+As a researcher, I want services to support the long term curation of data (e.g. MRI scans, experiment output, intermediate files), so that I can be sure that data will not get 'lost' with the passage of time
+As a researcher, I want a time line display of multiple data files and their associated images, so that I can compare the data taken from experiments on particular dates
+As a researcher, I want remote access to my data for off-site working (e.g. working from home, or working while on an international visit), so that I can still work effectively while away from the lab
+As a researcher, I want to be able to share post-experiment write-ups with other researchers (e.g. sharing protocols and workflows for conducting specific types of experiments) so that others can more easily replicate my work
+As a researcher, I want to collect data as a library of data, which can then be used by one or multiple experiments that are defined at a later stage (perhaps years later)
+As a researcher, I want to be able to indicate within my electronic log book which experimental data is good/bad, hide the bad data, but still keep it in the system just in case it is useful in the future.
+As a researcher, I want the system to provide standard metadata, that all researchers in the centre (and beyond) can use so that we can better understand each others' data
+As a researcher, I want physiology images to be annotated with standard meta data so that my data can later be searched for and understood
+As a researcher, I want to be able to attach standard meta data for behavioural observations (and video), so that my data can later be searched for and understood
+As a researcher, I want to be able to attach standard meta data for drug responses, so that my data can later be searched for and understood
+As a researcher, I need to be able to search for images of cells (and brains) using standard meta data
+As a researcher, I would like at least some meta data to be automatically inserted when new data is added to the system
+As a researcher, I want to be able to attach detailed meta data (e.g. the Minimal Information for a Neuroscience Investigation MINI schema) to the data and entries that I create.
+As a researcher adding new data to the system, I want to be able to select a partially pre-populated template (e.g. MINI) that already contains commonly entered meta data, so that I do not waste time repeatedly inserting the same meta data over and over again for each individual file or log book entry.
+As a user, when moving a file to a new location, I need to be sure that existing metadata corresponding to the file is not lost.
+As a researcher, I want to tag data with keywords, as well as assign formal meta data, so that I or other researchers can successfully search for data using keywords
+As a researcher, I want to be able to form links between objects, for example File A is an analysis of File B, so that data can be searched by type and by association
+As a researcher, I want the ability to locate experiment files using meta data (e.g. find all files that relate to Neuron 42), regardless of where those files are located
+As a researcher, I want any data that I have written to the VRE to be protected from modification or deletion (by myself or others) so that original data can always be traced back to an experiment and a point in time (although new versions of the data file can be uploaded)
+As a user, I want to be able to keep my data private on the system, and only share data that I deem should be shared
+As a researcher, I want to be able to store all the inputs for an experiment (data files, notes and custom scripts) so that the provenance of the results can be verified.
+As a researcher, I want to be able to search for files by file type (for example electro physiology, image and video) and format (e.g. .eeg, DICOM, MPEG-2)
+As a researcher, I want to be able to bulk upload directories and files with minimal effort.
+As a researcher who has performed a bulk upload of directories and files, I want to be able to associate meta data to the group as a whole at some point in time after the bulk upload has completed, so that I have a period of time to reflect on suitable values for the meta data.
+As a user, I want to be able to change the sharing and ownership of multiple files
+As a researcher, I want the ability to restrict the data I share to certain researchers or groups of researchers
+As a researcher, I want to be able to locate and access data that colleagues want to share
+As a researcher, I want to be able to interact with a revision control system so that I can keep track of changes to files (e.g hypothesis, notes, experiment descriptions, questionnaires, input files, results) over time
+As a junior researcher, I want to be able to harvest knowledge from within the group, so that I can learn from more experienced researchers
+As a researcher working away from the laboratory, I want secure remote access to the Neurohub node.
+As a researcher, I want a group-level repository for sharing papers/reviews/comments with other researchers
+As a researcher executing a workflow, I want the details of the workflow plan as well as the execution history and (partial) results recorded in Neurohub.

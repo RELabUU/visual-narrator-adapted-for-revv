@@ -1,0 +1,55 @@
+As a User, I want to download VT GIS data layers in GML format.
+As a User, I want to see rankings of datasets, web services, and web applications to help me pick the 'best' option.
+As a User, I want to rank (eg: number of stars) datasets, web services, and web applications.
+As a User, I want to explore Warehouse entries by the 'custom data groupings' created by the Publisher.
+As a User, I want to specify data types (eg: polygon, points, lines, raster) in searches.
+As a User, I want to get to all Warehouse entries that have one or more 'custom keyword tags' assigned by the Publisher.
+As a User, I want to control when and what I get notified about.
+As a User, I want all technical terms to be linked to explanations so I don't have to be a GIS expert.
+As a User, I want to post my 'data wish list' to a website for others to see, rank, and comment on.
+As a User, I want to personalize the site (eg: My Warehouse) for the topics and data that I use most often.
+As a User, I want a button that allows me to 'share' things that I discover on the Data Warehouse via a URL link, Twitter and...
+As a User, I want to see a list of all data, web services, and applications associated with a particular dataset.
+As a User, I want to browse thumbnails of available datasets, web services, or web application to give me a quick sense of what...
+As a User, I want to control layer rendering (symbology) for VT GIS data layers accessed via a web map service.
+As a User, I want to post comments about a particular dataset, web service, or application and have those comments show up...
+As a User, I want more format/projection options when downloading.
+As a User, I want to search by standard data themes (eg: boundary data, transportation data, etc.) using ISO 19115 Topic...
+As a User, I want to download VT GIS data layers in KML format.
+As a User, I want to integrate aerial photos (eg: VT orthos) into my own web mashups.
+As a User, I want to download all data as pre-packaged files via FTP.
+As a User, I want to see a listing of all available data even if it isn't available for immediate download or if there are access...
+As a User, I want to download thematic data in bulk (eg: all transportation data).
+As a User, I want to download data in non-GIS formats (eg: CSV, GeoJSON).
+As a User, I want web services that work with Open Source GIS software (desktop, mobile, and browser-based clients).
+As a User, I want access to data standards and data templates for download.
+As a User, I want to have access to Data Warehouse 'capabilities' via a published API (eg: REST endpoint) so I can integrate it...
+As a User, I want access to 'help' resources and media (such as YouTube videos) on how to use GIS data, web services, web...
+As a User, I want to integrate VT GIS data layers into my own web mashups.
+As a User, I want to find and download Regional-level (RPC) GIS data.
+As a User, I want the 'posted date' included on the list of new/updated data, web services, or web/mobile/desktop applications.
+As a User, I want to be notified whenever new or updated data, web services, or web/mobile/desktop applications are released.
+As a User, I want access to ESRI layerfile packages.
+As a User, I want to find the latest GIS data releases by agency, by department, by program (eg:...
+As a User, I want access to ESRI layerfiles (symbology) used to render GIS data layers.
+As a User, I want to flag errors in the data and have them submitted to the data steward.
+As a User, I want access to historical 'snapshots' of VT GIS data.
+As a User, I want access to data and web services which are openly available in a manner consistent with OpenDefinition.org's...
+As a User, I want web services providing access to aerial photos that render 'Google' fast.
+As a User, I want to find and download town-level GIS data.
+As a User, I want to download VT GIS data layers in ESRI file geodatabase format.
+As a User, I want to download VT GIS data layers and imagery (aerial photos) only for a particular area that I specify (eg: clip &...
+As a User, I want web services that work with ArcGIS software (desktop, mobile, and browser-based clients ).
+As a User, I want data and imagery downloads to include embedded metadata.
+As a User, I want all of the data to have the good metadata and keyword tagging.
+As a User, I want metadata that is easy to read with a quick way to get to attribute descriptions and attribute codes.
+As a User, I want all data that I find to be available for download (not just a link to an external website).
+As a User, I want access to imagery organized by year (whether for download or web service).
+As a User, I want to download VT GIS data layers in ESRI shapefile format.
+As a User, I want access to VT GIS data layers with no downloading required (ie: as a web service).
+As a User, I want to download aerial photos (eg: VT orthos) so I can use them on my computer.
+As a User, I want a browser-based Data Warehouse solution that does not require a browser plug-in.
+As a User, I want access to historical aerial photos.
+As a User, I want a robust and easy-to-use search engine to help me find the geospatial data, web services, and...
+As a User, I want access to aerial photos (eg: VT orthos) with no downloading required (ie: as a web service).
+As a User, I want 'authoritative' datasets to be discoverable and clearly identified.

@@ -1,0 +1,50 @@
+As a user, when I hear a strange noise, I want to be able to look up what it might be, and get information.
+As a user, when the plane drops in altitude, I want to know what happened, what the pilot is trying to do, and obtain general information on it.
+As a user, I want to be able to know for sure when the plane is turning and why.
+As a user, I want to know flight weather conditions for my journey.
+As a user, I want potential causes of turbulence. (weather, unstable air)
+As a user, I want to know when we are about to land, and obtain expectations in terms of altitude and related noises.
+As a user, I want to look at my pilot's turbulence record prior to and during a flight.
+As a user, I want to look at my flight's turbulence record prior to and during a flight.
+As a user, I want to know how to fix pressure in my ears when flying.
+As a user, I want to know how long I have been in the air.
+As a user, I want to know how much longer I will be in the air.
+As a user, I want to know where in the world I am at the moment.
+As a user, I want to be alerted to upcoming potential turbulence before it occurs (can be crowdsourced based on previous data)
+As a user, I want to see the current amount of turbulence.
+As an airline, I want to gather turbulence data from actual customers/passengers.
+As an airline, I want to compare my flight record with other airlines on the same route.
+As a user, I want to know flight weather conditions for my journey.
+As a user, I want to search by airline / flight number
+As a user, I want to look up flight names.
+As a user, I want to see my departure location and my arrival location.
+As a user, I want to see the temperatures of both locations.
+As a user, I want to know my ETA.
+As a user, I want to find flights by airline (by current/upcoming flights)
+As a user, I want to know the terminal / gate.
+As a user, I want to see the flight number.
+As a user, I want to search by route.
+As a user, I want to know the weather of both locations.
+As a user, I want to know the plane of both locations.
+As a user, I want to know the weather at any given airport.
+As a user, I want to look at my pilot's turbulence record prior to and during a flight.
+As a user, I want to look at my flight's turbulence record prior to and during a flight.
+As a user, I want to see elapsed time.
+As a user, when I hear a strange noise, I want to be able to look up what it might be, and get information.
+As a user, I want to look through a library of sounds.
+As a user, I want to preview sounds.
+As a user, I want to read about what the sound could be caused by.
+As a user, when the plane drops in altitude, I want to know what happened, what the pilot is trying to do, and obtain general information on it.
+As a user, I want to know potential causes of turbulence, and likely ones.
+As a user, I want to know when we are about to land.
+As a user, I want to know about sounds and bumps related to landing.
+As a user I want to measure the current amount of turbulence
+As a user I want to be alerted to potential turbulence 10 min before it occurs (can be crowdsourced based on previous data).
+As a user I want a brief summary of how turbulence is measured
+As a user I want to see a graph of the last 2 hours of turbulence
+As a user, I want to be able to know when the plane is turning and why.
+As a user, I want to see the direction of the plane's journey.
+As a user, I want to see an explanation of why the plane is in the direction it's going in.
+As a user, I want to know where in the world I am the moment.
+As a user, I want to know how to fix pressure in my ears when I'm flying.
+Other airplane hacks and travel tips.

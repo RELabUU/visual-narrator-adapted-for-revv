@@ -1,0 +1,664 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/neurohub.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/neurohub.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "Neurohub",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canHave1
+	Domain: :User
+	Range: :Spreadsheet
+
+ObjectProperty: :canHave2
+	Domain: :BulkUpload
+	Range: :Period
+
+ObjectProperty: :canBulk
+	Domain: :Researcher
+	Range: :Directory
+
+ObjectProperty: :hasInstallation
+	Domain: :Neurohub
+	Range: :NeurohubInstallation
+
+ObjectProperty: :canConfigure
+	Domain: :ReleaseEngineer
+	Range: :NeurohubInstallation
+
+ObjectProperty: :canSearch
+	Domain: :User
+	Range: :Protocol
+
+ObjectProperty: :canMigrate
+	Domain: :SystemAdministrator
+	Range: :Data
+
+ObjectProperty: :canSync
+	Domain: :User
+	Range: :Event
+
+ObjectProperty: :canIndicateWithin
+	Domain: :Researcher
+	Range: :Which
+
+ObjectProperty: :hasPage1
+	Domain: :Book
+	Range: :BookPage
+
+ObjectProperty: :hasPage2
+	Domain: :Neurohub
+	Range: :NeurohubPage
+
+ObjectProperty: :canHarvest
+	Domain: :Researcher
+	Range: :Knowledge
+
+ObjectProperty: :canKeep1
+	Domain: :User
+	Range: :BookEntry
+
+ObjectProperty: :canKeep2
+	Domain: :User
+	Range: :Data
+
+ObjectProperty: :hasEngineer
+	Domain: :Release
+	Range: :ReleaseEngineer
+
+ObjectProperty: :hasGraphics/colour
+	Domain: :Interface
+	Range: :InterfaceGraphics/colour
+
+ObjectProperty: :hasAdministrator1
+	Domain: :System
+	Range: :SystemAdministrator
+
+ObjectProperty: :hasAdministrator2
+	Domain: :Lab
+	Range: :LabAdministrator
+
+ObjectProperty: :hasFile
+	Domain: :Data
+	Range: :DataFile
+
+ObjectProperty: :canSearchBy
+	Domain: :Data
+	Range: :Type
+
+ObjectProperty: :canCall
+	Domain: :ReleaseEngineer
+	Range: :Script
+
+ObjectProperty: :canStore
+	Domain: :Researcher
+	Range: :Input
+
+ObjectProperty: :hasDependency
+	Domain: :Neurohub
+	Range: :NeurohubDependency
+
+ObjectProperty: :canAttach1
+	Domain: :Researcher
+	Range: :File
+
+ObjectProperty: :canAttach2
+	Domain: :User
+	Range: :File
+
+ObjectProperty: :canAttach3
+	Domain: :Researcher
+	Range: :Data
+
+ObjectProperty: :canLearnFrom
+	Domain: :Researcher
+	Range: :Researcher
+
+ObjectProperty: :canAssign1
+	Domain: :User
+	Range: :Tag
+
+ObjectProperty: :canAssign2
+	Domain: :User
+	Range: :Information
+
+ObjectProperty: :canSearchFor1
+	Domain: :User
+	Range: :File
+
+ObjectProperty: :canSearchFor2
+	Domain: :Researcher
+	Range: :Keywords
+
+ObjectProperty: :canLimit1
+	Domain: :User
+	Range: :Search
+
+ObjectProperty: :canLimit2
+	Domain: :User
+	Range: :SearchResult
+
+ObjectProperty: :canRevertTo
+	Domain: :User
+	Range: :Version
+
+ObjectProperty: :hasBrowser
+	Domain: :Web
+	Range: :WebBrowser
+
+ObjectProperty: :canProve
+	Domain: :User
+	Range: :Page
+
+ObjectProperty: :hasMember
+	Domain: :Lab
+	Range: :LabMember
+
+ObjectProperty: :canLocate
+	Domain: :Researcher
+	Range: :Data
+
+ObjectProperty: :canUpload1
+	Domain: :Researcher
+	Range: :File
+
+ObjectProperty: :canUpload2
+	Domain: :User
+	Range: :File
+
+ObjectProperty: :canDraw
+	Domain: :User
+	Range: :Table
+
+ObjectProperty: :canCollect
+	Domain: :Researcher
+	Range: :Data
+
+ObjectProperty: :canView1
+	Domain: :Investigator
+	Range: :TestResult
+
+ObjectProperty: :canView2
+	Domain: :Supervisor
+	Range: :What
+
+ObjectProperty: :canView3
+	Domain: :User
+	Range: :Time
+
+ObjectProperty: :canView4
+	Domain: :LabMember
+	Range: :Event
+
+ObjectProperty: :canView5
+	Domain: :User
+	Range: :Inventory
+
+ObjectProperty: :canNavigate
+	Domain: :User
+	Range: :Forward
+
+ObjectProperty: :canModify
+	Domain: :User
+	Range: :Protocol
+
+ObjectProperty: :hasBook
+	Domain: :Log
+	Range: :LogBook
+
+ObjectProperty: :canTheme
+	Domain: :LabAdministrator
+	Range: :InterfaceGraphics/colour
+
+ObjectProperty: :hasUpload
+	Domain: :Bulk
+	Range: :BulkUpload
+
+ObjectProperty: :canFilter
+	Domain: :User
+	Range: :File
+
+ObjectProperty: :canLink
+	Domain: :User
+	Range: :Run
+
+ObjectProperty: :hasResult1
+	Domain: :Test
+	Range: :TestResult
+
+ObjectProperty: :hasResult2
+	Domain: :Search
+	Range: :SearchResult
+
+ObjectProperty: :canTag
+	Domain: :Researcher
+	Range: :Data
+
+ObjectProperty: :canChange
+	Domain: :User
+	Range: :Sharing
+
+ObjectProperty: :canRun
+	Domain: :SystemAdministrator
+	Range: :Script
+
+ObjectProperty: :canAssociate1
+	Domain: :User
+	Range: :File
+
+ObjectProperty: :canAssociate2
+	Domain: :BulkUpload
+	Range: :Data
+
+ObjectProperty: :hasNode
+	Domain: :Neurohub
+	Range: :NeurohubNode
+
+ObjectProperty: :canSelect
+	Domain: :Researcher
+	Range: :Template
+
+ObjectProperty: :canInstall
+	Domain: :SystemAdministrator
+	Range: :NeurohubDependency
+
+ObjectProperty: :canMake1
+	Domain: :User
+	Range: :DataFile
+
+ObjectProperty: :canMake2
+	Domain: :User
+	Range: :Link
+
+ObjectProperty: :canWaste
+	Domain: :Researcher
+	Range: :Time
+
+ObjectProperty: :canSee
+	Domain: :User
+	Range: :Provenance
+
+ObjectProperty: :canAccess
+	Domain: :Researcher
+	Range: :File
+
+ObjectProperty: :canDownload1
+	Domain: :Researcher
+	Range: :File
+
+ObjectProperty: :canDownload2
+	Domain: :User
+	Range: :File
+
+ObjectProperty: :hasEntry
+	Domain: :Book
+	Range: :BookEntry
+
+ObjectProperty: :canCapture
+	Domain: :User
+	Range: :Metadata
+
+ObjectProperty: :canRestrict
+	Domain: :User
+	Range: :Field
+
+ObjectProperty: :canCreate1
+	Domain: :Researcher
+	Range: :BookPage
+
+ObjectProperty: :canCreate2
+	Domain: :User
+	Range: :Protocol
+
+ObjectProperty: :canManage
+	Domain: :User
+	Range: :Paper
+
+ObjectProperty: :canForm
+	Domain: :Researcher
+	Range: :Link
+
+# Classes
+Class: :SystemAdministrator
+	SubClassOf: :Administrator
+	Annotations:
+		rdfs:label "System Administrator",
+		rdfs:comment "Functional Role"
+
+Class: :Administrator
+
+
+Class: :System
+
+
+Class: :NeurohubNode
+	SubClassOf: :Node
+	Annotations:
+		rdfs:label "Neurohub Node"
+
+Class: :Node
+
+
+Class: :Neurohub
+
+
+Class: :Script
+
+
+Class: :NeurohubInstallation
+	SubClassOf: :Installation
+	Annotations:
+		rdfs:label "Neurohub Installation"
+
+Class: :Installation
+
+
+Class: :ReleaseEngineer
+	SubClassOf: :Engineer
+	Annotations:
+		rdfs:label "Release Engineer",
+		rdfs:comment "Functional Role"
+
+Class: :Engineer
+
+
+Class: :Release
+
+
+Class: :TestResult
+	SubClassOf: :Result
+	Annotations:
+		rdfs:label "Test Result"
+
+Class: :Result
+
+
+Class: :Test
+
+
+Class: :Investigator
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :LogBook
+	SubClassOf: :Book
+	Annotations:
+		rdfs:label "Log Book"
+
+Class: :Book
+
+
+Class: :Log
+
+
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Forward
+
+
+Class: :LabAdministrator
+	SubClassOf: :Administrator
+	Annotations:
+		rdfs:label "Lab Administrator",
+		rdfs:comment "Functional Role"
+
+Class: :Lab
+
+
+Class: :InterfaceGraphics/colour
+	SubClassOf: :Graphics/colour
+	Annotations:
+		rdfs:label "Interface Graphics/colour"
+
+Class: :Graphics/colour
+
+
+Class: :Interface
+
+
+Class: :NeurohubDependency
+	SubClassOf: :Dependency
+	Annotations:
+		rdfs:label "Neurohub Dependency"
+
+Class: :Dependency
+
+
+Class: :BookPage
+	SubClassOf: :Page
+	Annotations:
+		rdfs:label "Book Page"
+
+Class: :Page
+
+
+Class: :Researcher
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :File
+
+
+Class: :WebBrowser
+	SubClassOf: :Browser
+	Annotations:
+		rdfs:label "Web Browser"
+
+Class: :Browser
+
+
+Class: :Web
+
+
+Class: :Supervisor
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :What
+
+
+Class: :Tag
+
+
+Class: :Information
+
+
+Class: :SearchResult
+	SubClassOf: :Result
+	Annotations:
+		rdfs:label "Search Result"
+
+Class: :Search
+
+
+Class: :DataFile
+	SubClassOf: :File
+	Annotations:
+		rdfs:label "Data File"
+
+Class: :Data
+
+
+Class: :Link
+
+
+Class: :Field
+
+
+Class: :Version
+
+
+Class: :Run
+
+
+Class: :Metadata
+
+
+Class: :Protocol
+
+
+Class: :Time
+
+
+Class: :Paper
+
+
+Class: :Provenance
+
+
+Class: :Table
+
+
+Class: :LabMember
+	SubClassOf: :Member
+	Annotations:
+		rdfs:label "Lab Member",
+		rdfs:comment "Functional Role"
+
+Class: :Member
+
+
+Class: :Event
+
+
+Class: :Inventory
+
+
+Class: :NeurohubPage
+	SubClassOf: :Page
+	Annotations:
+		rdfs:label "Neurohub Page"
+
+Class: :Spreadsheet
+
+
+Class: :BookEntry
+	SubClassOf: :Entry
+	Annotations:
+		rdfs:label "Book Entry"
+
+Class: :Entry
+
+
+Class: :Which
+
+
+Class: :Template
+
+
+Class: :Keywords
+
+
+Class: :Type
+
+
+Class: :Input
+
+
+Class: :Directory
+
+
+Class: :BulkUpload
+	SubClassOf: :Upload
+	Annotations:
+		rdfs:label "Bulk Upload",
+		rdfs:comment "Functional Role"
+
+Class: :Upload
+
+
+Class: :Bulk
+
+
+Class: :Period
+
+
+Class: :Sharing
+
+
+Class: :Knowledge
+
+
+Class: :Virgin
+
+
+Class: :Operator
+
+
+Class: :Response
+
+
+Class: :Experiment
+
+
+Class: :Network
+
+
+Class: :Drive
+
+
+Class: :Date
+
+
+Class: :Stage
+
+
+Class: :Section
+
+
+Class: :Part
+
+
+Class: :Content
+
+
+Class: :Equipment
+
+
+Class: :Group
+
+
+Class: :Video
+
+
+Class: :Analysis
+
+
+Class: :Others
+
+
+Class: :Client
+
+
+Class: :Ups
+
+
+Class: :Image
+
+
+Class: :MRIOperator
+	Annotations:
+		rdfs:label "MRI Operator",
+		rdfs:comment "Functional Role"
+
+Class: :SouthamptonNeuroscience
+	Annotations:
+		rdfs:label "Southampton Neuroscience",
+		rdfs:comment "Functional Role"
+

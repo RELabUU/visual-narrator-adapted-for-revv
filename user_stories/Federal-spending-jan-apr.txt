@@ -1,0 +1,71 @@
+As a github site user, I want to see the new layout in the new site plan on the homepage
+"As a member of the development team, I need finalized personas of our end-users that will inform the development process and decision-making.	"
+As a team we need a process for getting regular feedback from agency users.
+As a github site viewer, I need to know what the different pieces of the data act implementation are and how I can get to them
+As a github site user, I need to understand what the data broker is and how it works (content)
+As a github site user, I want to see a consistent branding for fedspendingtransparency.github.io and the data broker
+As a member of the public, I want to understand Treasury's process for DATA Act implementation (write content)
+As a data creator (data owner or agency developer), I need to know how I will be involved in the DATA act development
+As an open beta website user, I want to see regular updates on the progress of DATA Act implementation so that I can stay up to date
+As a github site user, I want to see a logo for the DATA Act, so that I understand which communications are from the DATA act implementation team at large.
+As a agency data creator/sandbox tester, I need to be able to inform the sprint process
+As an agency data creator, I need to be able to view information on the reporting specification on fedspendingtransparency.github.io so that I can understand the distinction between the RSS and DAIMS
+As a member of the public I want to understand Treasury's process
+As a github site user, I want to understand how user engagement is informing the DATA Act implementation.
+As a github site user, I want to see the graphic/timeline of DATA act implementation on the homepage
+As an Open Beta site user, I want to see some options for how the aggregate data, award level data, and transactional data will be displayed together on the site so that I can provide feedback
+As a CFO, I want to see a visualization of the SBA procurement data, so that I can understand what insights I can glean from the new information reported under the DATA act
+As an OpenBeta user, I want to see examples of parameter calls for the API. 
+As a github site user, I want to see the graphic/timeline of DATA act implementation on the homepage
+As a member of the public I want to understand Treasury's process (move content to staging site and review)
+As a github site user, I want to understand how user engagement is informing the DATA Act implementation.
+As a github site user, I need to understand what the data broker is and how it works
+As a github site user, I want to see the chosen DATA act logo on the site instead of the Treasury logo
+As an agency user, I need an email confirmation (or denial) when I request an account in the broker
+As a data creator, I need clarity on what button to click to send my data to USA Spending.
+As a data creator, I want a clear signal that my data has passed validation so I can submit my data with confidence.
+As a data creator, I want to see a more helpful error listing display in the Data Broker wireframes so I can assess and correct my errors more easily.
+As a data creator, I want to see the “download error file” “upload corrected files” and “download all” buttons more easily in the Data Broker wireframes.
+As a public user, I need to be able to see more years of contracts data on OpenBeta.
+As a citizen I want to understand the connection between Open Beta and the GitHub site.
+As an open beta user, I want to see and comment on the wireframes created in PUB-17
+As an OpenBeta user, I want to receive email notifications when my comment has been responded to by the admin. 
+As github visitor, i want to better understand the difference between the github site and open Beta.
+As an agency user, I need to see helpful, contextual prose on the broker pages (instead of Latin)
+As a user of openbeta, I need to see the Contract Award Summary wireframes in openbeta (production)
+As a user of openbeta, I need a simplified sitemap to better focus my attention
+As a user of openbeta, I need to see engaging content on the homepage to help me understand what openbeta is
+As an agency developer, I need to better understand what is included in the Alpha Broker release
+As a public user, I need to be able to see more years of grants data on OpenBeta.
+As an agency data submitter, I need to be able to enter in meta-information about my submission, including agency and period I'm reporting for
+As an agency data submitter, I need to know how I will generate and submit my FPDS extract to the broker
+As an agency data submitter, I need to be able to pause and resume downloads
+As a public user, I want to see more links to OpenBeta on USAspending.gov 
+As an Agency user, I want to provide feedback on the wireframes for the future Data Broker.
+As UX designer, I need a script that outlines the wireframe usability test plan for our current sprint.
+As an agency user I need to see the US Web design standards on the data broker
+As a sandbox tester, I need to see my feedback integrated into the broker wireframes
+As a member of the PUB team, I need an environment for the openbeta refresh created
+As a user I need to be able to see header errors when uploading .csv files.
+As an agency user I need to see the US Web design standards on the data broker - placeholder to help the broker team
+As a developer I need updated designs of the Data Broker. Pages/assets include: File upload blocks,  warning/error report and Review & Publish page. 
+As an Agency user, I want to provide feedback on the wireframes for the future Data Broker.
+ As a user of openbeta, I need to see engaging content on the homepage to help me understand what openbeta is (Implement wireframe)
+As an external stakeholder, I need to know where and how I can submit user stories so that I can submit highly actionable feedback
+As a new open beta team member, I want to discuss the Grants and Contracts Explorer applications in the updated published site so that I can plan and configure the apps accordingly to be optimized for the new site
+As a new open beta team member, I want to review the current wireframes/mockups with the design Team so that I can begin to develop scope and LOE requirements for the updated Open Beta site
+As a new open beta developer, I want to review the current wireframes/mockups for the updated OpenBeta site so that I can develop and document questions and feedback and for the team
+As an open beta user, I need to give feedback on the concepts
+As a github site user, I need to see regular updates to the content on the github site
+As a data creator, I need to access help content on the data broker that is organized and searchable so I can easily find the information I need.
+As a developer of openbeta, I need mockups of the refresh
+As a member of the public, I want to give feedback on the contract award wireframes 
+As a gov stakeholder, I need an explanation and documentation for DATA act's design process
+As an Agency user, I want to provide feedback on the wireframes for the future Data Broker.
+As a developer of the Open Beta site, I want to create a high-level estimate of work required for the development of the refreshed Open Beta Site so that I can plan for development and release cycles.
+As a developer of the Open Beta site, I want to create an initial timeline for the refreshed Open Beta site based on the estimate of work so that I can coordinate the development and project management teams.
+As a developer of OpenBeta, I need mockups with the latest additions
+As a member of the public, I want to give feedback on the contract award wireframes 
+As an open beta user, I want to see wireframes of the homepage so I can comment on them.
+As a data creator, I want to give feedback on the alpha broker using realistic data.
+As a developer of OpenBeta, I need Google Analytics on the current USAspending.gov to develop wireframes for the Home Page and for Search. 

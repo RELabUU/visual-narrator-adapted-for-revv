@@ -1,0 +1,98 @@
+As Admin I'm able to import Event Records			
+Import data into Postgres.			
+Write and validate data import script.			
+Analyse CSV export files.			
+Create core database structure.			
+Configure Heroku hosting environment.			
+Server configuration en database migration			
+As a Visitor	 I'm able to navigate the site through the site wide footer menu so that I can always quickly open the page I'm looking for.		
+As a Visitor	 I'm able to navigate the site through the site wide top menu so that I can always quickly open the page I'm looking for.		
+As a Visitor	 I'm able to navigate the site through site wide navigation menus so that I can always quickly open the page I'm looking for.		
+Add Static Pages Controller to application and define static pages.			
+Add Static Pages Controller to application and define static pages.			
+As an Administrator	 I receive an email when a contact form is sent so that I can respond to it.		
+As a Visitor	 I am able to use the contact form so that I can contact the administrator.		
+As a Visitor	 I am able to use the contact form	 so that I can contact the administrator.	
+As an Administrator	 I'm able to ban a particular User so that he/she has no longer access to the site with the provided email address.		
+As an Administrator	 I'm able to completely remove a User from the site so that the account is no longer available.		
+As an Administrator	 I can edit the details of a User.		
+As an Administrator	 I see the criteria that I searched on highlighted in the result records so that I can more easily see why a particular User matches my search.		
+As an Administrator	 I'm able to search through the list of Users so that I can more easily find a particular User.		
+As an Administrator	 I'm able to see a list of active Users registered with the site so that I can manage the Users.		
+As an Administrator	 I receive an email notification when a new User is registered so that I know who is registered.		
+As an Administrator I'm able to manage Users.			
+As a User I am able to set a new password	 so that I can login.		
+As a User	 I can request a password reset so that I am still able to login whenever I forgot my password.		
+As a User	 I'm able to logout so that other Users of my device don't have access to my private account.		
+As a User	 I'm automatically logged out after 10 minutes or more of inactivity so that my account stays secure.		
+As a User	 I can login using my email address and password	 so that I get access to the User -only features of the website.	
+As a newly registered User	 I receive an email with an account activation link so that I can confirm the correctness of my email address.		
+As a Visitor	 I can register myself with the site so that I'm able to contribute.		
+As a Visitor	 I can register myself with the site	 so that I'm able to contribute.	
+As an Administrator	 I'm able to delete an existing event so that its removed from the overview.		
+As an Administrator	 I'm able to edit an existing event so that I can update the contents.		
+As an Administrator I'm able to add a new event so that its shown in the list of events.			
+As an Administrator	 I'm able to manage the list of events so that I can keep the events section up to date.		
+As a Visitor	 I'm able to see a list of events so that I can stay up to date on ABC-related events.		
+As a Visitor	 I'm able to see a list of events so that I can stay up to date on ABC-related events.		
+As an Administrator	 I'm able to delete an existing news item so that its removed from the overview.		
+As an Administrator I'm able to edit an existing news item	 so that I can update the contents._		
+As an Administrator	 I'm able to add a new news item	 so that its shown in the overview of news items.	
+As an Administrator I'm able to manage the list of news items	 so that I can keep the news section up to date.		
+As a Visitor	 I'm able to see a list of news items	 so that I can stay up to date on ABC news.	
+As a Visitor	 I'm able to see a list of news items	 so that I can stay up to date on ABC news.	
+As an Administrator I'm able to remove existing media elements of a particular gallery so that I can keep the album up to date.			
+As an Administrator	 I'm able to edit existing media elements of a particular gallery so that I can update the content.		
+As an Administrator	 I'm able to add new media elements to the select gallery.		
+As an Administrator	 I'm able to delete an existing album so that its removed from the media gallery.		
+As an Administrator	 I'm able to edit the information of an existing album so that I can update it.		
+As an Administrator	 I'm able to add a new album.		
+As an Administrator	 I'm able to manage the media gallery	 so that I can add or remove content.	
+As a Visitor	 I'm able to view textual information on the selected media element.		
+As a Visitor	 I'm able to navigate through the album so that I can view all media elements.		
+As a Visitor	 I'm able to select a album so that I can view the media in the album.		
+As a Visitor	 I'm able to navigate back to the media categories		
+As a Visitor	 I'm able to see an overview of available albums within the select category so that I can select a particular album.		
+As a Visitor	 I'm able to see an overview of available categories so that I can select a particular category.		
+As a Visitor	 I'm able to view the media gallery	 so that I can see interesting photo's about the Event Region.	
+As an Administrator	 I'm able to delete content (which a user added) from a person's profile page.		
+As an Administrator I receive an email notification each time content is added	 so that I know what content has been added.		
+As a User	 I'm able to delete content (which I added) from a person's profile page	 so that I remove information that I no longer want to share.	
+As a User	 I'm able to edit the content that I added from a person's profile page	 to update the information.	
+As a User	 I'm able to add a description to a person's profile page.		
+As a User	 I'm able to add an audio fragment (Soundcloud link) to a person's profile page.		
+As a User	 I'm able to add an video (YouTube	 Vimeo link) to a person's profile page.	
+As a User	 I'm able to add an image to a person's profile page.		
+As a User	 I'm able to add text to a person's profile page.		
+As a User	 I'm able to add content to the selected profile.		
+As a Visitor	 I'm able to close the selected profile so that I can return to the search results or homepage.		
+As a Visitor	 I'm able to navigate to the next and previous profile so that I can easily scan through the search results.		
+As a Visitor	 I'm able to see who (display name) added the content and when so that I know more about the contributor of the content.		
+As a Visitor	 I'm able to view the added stories (if any) on the profile page so that I can learn more about the person.		
+As a Visitor	 I'm able to open a larger view of the map so that I can better understand where the person is positioned.		
+As a Visitor	 I'm able to see a map of the event plot so that I know where the person has been positioned.		
+As a Visitor	 I'm able to open the interactive map from the person's profile page so that I know the location of the person's event plot.		
+As a Visitor	 I'm able to view the general information of a person	 so that I can learn more about an individual's event on Event Region.	
+As a Visitor	 I'm able to view the profile of a particular person	 so that I can identify that person and add additional content to their profile.	
+As an Administrator	 I'm able to delete an existing person in the event of relocation.		
+As an Administrator	 I'm able to edit an existing person so that I can correct any mistakes.		
+As an Administrator	 I'm able to add a new person to the ABC database.		
+As an Administrator	 I'm able to manage people	 so that I can add	 edit or delete profiles.
+As a Visitor	 I see the criteria that I searched on highlighted in the result records	 so that I can more easily see why a particular person matched my search.	
+As a Visitor	 I'm able to review key information of all found people	 so that I have an indication of the person's details.	
+As a Visitor	 I'm able to order the search results	 so that I can more easily review the results.	
+As a Visitor	 I'm able to search for people in the ABC database.		
+As a Visitor	 I choose to search either adults of infants.		
+As a Visitor	 I'm able to search for people in the ABC database	 so that I can review the profiles of the positioned people.	
+As a User	 I'm able to open the interactive map from a person's profile page	 so that I can see that particular plot location.	
+As a User	 I'm able to click a particular plot location from the map and thereby perform a search of people associated with that plot number.		
+As a User	 I'm able to view an interactive map of the Event Region	 so that I can view intact mass event locations listed by plot #.	
+As a User	 I'm able to view an interactive map of the Event Region	 so that I can find event locations.	
+As a Visitor	 I'm able to click on a person's profile card	 so that I can open their profile page.	
+As a Visitor	 I'm shown random cards of people with User added content.		
+As a Visitor	 I'm shown random cards naming people positioned on Event Region since 1980 presented by first name	 surname	 age and a ticking clock.
+As a Visitor	 I'm able to view the ABC experience homepage	 so that I can learn about Event Region.	
+As a Visitor	 I'm able to view the ABC experience homepage	 so that I can learn about the Event Region.	
+As a Visitor	 I'm able to continue to the ABC experience homepage.		
+As a Visitor	 I'm first presented ABC introduction or animation.		
+As a Visitor	 I'm able to view the ABC introduction	 so that I get engaged.	

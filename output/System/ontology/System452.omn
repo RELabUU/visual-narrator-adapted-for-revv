@@ -1,0 +1,288 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :hasMashups
+	Domain: :Web
+	Range: :WebMashups
+
+ObjectProperty: :canPersonalize
+	Domain: :User
+	Range: :Site
+
+ObjectProperty: :hasService1
+	Domain: :Datasets
+	Range: :DatasetsService
+
+ObjectProperty: :hasService2
+	Domain: :Web
+	Range: :WebService
+
+ObjectProperty: :hasService3
+	Domain: :Dataset
+	Range: :DatasetService
+
+ObjectProperty: :hasType
+	Domain: :Data
+	Range: :DataType
+
+ObjectProperty: :canIntegrate1
+	Domain: :User
+	Range: :Photo
+
+ObjectProperty: :canIntegrate2
+	Domain: :User
+	Range: :DataLayer
+
+ObjectProperty: :hasWeb
+	Domain: :Data
+	Range: :DataWeb
+
+ObjectProperty: :canControl1
+	Domain: :User
+	Range: :What
+
+ObjectProperty: :canControl2
+	Domain: :User
+	Range: :LayerRendering
+
+ObjectProperty: :canPost1
+	Domain: :User
+	Range: :List
+
+ObjectProperty: :canPost2
+	Domain: :User
+	Range: :Comment
+
+ObjectProperty: :canSearchBy
+	Domain: :User
+	Range: :Data
+
+ObjectProperty: :hasData
+	Domain: :Transportation
+	Range: :TransportationData
+
+ObjectProperty: :hasLayer
+	Domain: :Data
+	Range: :DataLayer
+
+ObjectProperty: :hasRendering
+	Domain: :Layer
+	Range: :LayerRendering
+
+ObjectProperty: :canBrowse
+	Domain: :User
+	Range: :Thumbnail
+
+ObjectProperty: :canHave
+	Domain: :User
+	Range: :Access
+
+ObjectProperty: :canFind1
+	Domain: :User
+	Range: :Data
+
+ObjectProperty: :canFind2
+	Domain: :User
+	Range: :DataRelease
+
+ObjectProperty: :canDownload1
+	Domain: :User
+	Range: :DataLayer
+
+ObjectProperty: :canDownload2
+	Domain: :User
+	Range: :Data
+
+ObjectProperty: :canDownload3
+	Domain: :User
+	Range: :Photo
+
+ObjectProperty: :canSpecify
+	Domain: :User
+	Range: :DataType
+
+ObjectProperty: :hasRelease
+	Domain: :Data
+	Range: :DataRelease
+
+ObjectProperty: :canFlag
+	Domain: :User
+	Range: :Error
+
+ObjectProperty: :canRank
+	Domain: :User
+	Range: :Datasets
+
+ObjectProperty: :canSee1
+	Domain: :User
+	Range: :Ranking
+
+ObjectProperty: :canSee2
+	Domain: :User
+	Range: :List
+
+ObjectProperty: :canSee3
+	Domain: :User
+	Range: :Listing
+
+# Classes
+Class: :DataLayer
+	SubClassOf: :Layer
+	Annotations:
+		rdfs:label "Data Layer"
+
+Class: :Layer
+
+
+Class: :Data
+
+
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :DatasetsService
+	SubClassOf: :Service
+	Annotations:
+		rdfs:label "Datasets Service"
+
+Class: :Service
+
+
+Class: :Datasets
+
+
+Class: :Ranking
+
+
+Class: :WebService
+	SubClassOf: :Service
+	Annotations:
+		rdfs:label "Web Service"
+
+Class: :Web
+
+
+Class: :DataType
+	SubClassOf: :Type
+	Annotations:
+		rdfs:label "Data Type"
+
+Class: :Type
+
+
+Class: :What
+
+
+Class: :List
+
+
+Class: :Site
+
+
+Class: :DataWeb
+	SubClassOf: :Web
+	Annotations:
+		rdfs:label "Data Web"
+
+Class: :Thumbnail
+
+
+Class: :LayerRendering
+	SubClassOf: :Rendering
+	Annotations:
+		rdfs:label "Layer Rendering"
+
+Class: :Rendering
+
+
+Class: :DatasetService
+	SubClassOf: :Service
+	Annotations:
+		rdfs:label "Dataset Service"
+
+Class: :Dataset
+
+
+Class: :Comment
+
+
+Class: :Photo
+
+
+Class: :Listing
+
+
+Class: :TransportationData
+	SubClassOf: :Data
+	Annotations:
+		rdfs:label "Transportation Data"
+
+Class: :Transportation
+
+
+Class: :Access
+
+
+Class: :WebMashups
+	SubClassOf: :Mashups
+	Annotations:
+		rdfs:label "Web Mashups"
+
+Class: :Mashups
+
+
+Class: :DataRelease
+	SubClassOf: :Release
+	Annotations:
+		rdfs:label "Data Release"
+
+Class: :Release
+
+
+Class: :Error
+
+
+Class: :Format
+
+
+Class: :Application
+
+
+Class: :Eg
+
+
+Class: :Entry
+
+
+Class: :Tag
+
+
+Class: :Topic
+
+
+Class: :Orthos
+
+
+Class: :File
+
+

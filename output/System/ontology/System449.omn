@@ -1,0 +1,176 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canPersist
+	Domain: :Developer
+	Range: :LandingPage
+
+ObjectProperty: :hasSubscription
+	Domain: :Newsletter
+	Range: :NewsletterSubscription
+
+ObjectProperty: :hasTemplate
+	Domain: :Block
+	Range: :BlockTemplate
+
+ObjectProperty: :canDrag1
+	Domain: :User
+	Range: :Content
+
+ObjectProperty: :canDrag2
+	Domain: :User
+	Range: :Image
+
+ObjectProperty: :canCreate
+	Domain: :Editor
+	Range: :LandingPage
+
+ObjectProperty: :hasBar
+	Domain: :Action
+	Range: :ActionBar
+
+ObjectProperty: :canHave1
+	Domain: :Developer
+	Range: :Configuration
+
+ObjectProperty: :canHave2
+	Domain: :User
+	Range: :ActionBar
+
+ObjectProperty: :canConfigure
+	Domain: :User
+	Range: :BlockTemplate
+
+ObjectProperty: :canPublish
+	Domain: :Editor
+	Range: :LandingPage
+
+ObjectProperty: :hasPage
+	Domain: :Landing
+	Range: :LandingPage
+
+ObjectProperty: :canFetch
+	Domain: :Developer
+	Range: :List
+
+ObjectProperty: :canUse1
+	Domain: :Developer
+	Range: :Interface
+
+ObjectProperty: :canUse2
+	Domain: :User
+	Range: :NewsletterSubscription
+
+ObjectProperty: :canUse3
+	Domain: :User
+	Range: :Prototype
+
+# Classes
+Class: :BlockTemplate
+	SubClassOf: :Template
+	Annotations:
+		rdfs:label "Block Template"
+
+Class: :Template
+
+
+Class: :Block
+
+
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Developer
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :List
+
+
+Class: :LandingPage
+	SubClassOf: :Page
+	Annotations:
+		rdfs:label "Landing Page"
+
+Class: :Page
+
+
+Class: :Landing
+
+
+Class: :Interface
+
+
+Class: :NewsletterSubscription
+	SubClassOf: :Subscription
+	Annotations:
+		rdfs:label "Newsletter Subscription"
+
+Class: :Subscription
+
+
+Class: :Newsletter
+
+
+Class: :Configuration
+
+
+Class: :Content
+
+
+Class: :Image
+
+
+Class: :Editor
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :ActionBar
+	SubClassOf: :Bar
+	Annotations:
+		rdfs:label "Action Bar",
+		rdfs:comment "Functional Role"
+
+Class: :Bar
+
+
+Class: :Action
+
+
+Class: :Prototype
+
+
+Class: :Specification
+
+
+Class: :Information
+
+
+Class: :Screen
+
+
+Class: :eZUser
+	Annotations:
+		rdfs:label "eZ User",
+		rdfs:comment "Functional Role"
+

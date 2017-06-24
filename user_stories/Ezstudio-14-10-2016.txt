@@ -1,0 +1,69 @@
+As a user, I want to create content from the UDW
+As a user, I want to create content from the dashboard
+As a user, I want to edit a landing page which has no open drafts
+As a user, I want to create a new draft of a published landing page which has open drafts
+Add a Gallery content type in the Media content type group
+As a user I want to have an administrator account in eZ Studio after clean install
+As a user I want to have basic content types in eZ Studio after clean install
+As an administrator I want to have access to every content in eZ Studio
+As a user, I want to edit a landing page which has open drafts
+As a user, I want to create and publish a new draft, based on an older archived version
+As a user, I want to have at least two user profiles to come in the default demo bundle
+As a user, I want to see approval timeline in content editor mode
+As a user, I want to be notified about new content that's sent to me for review
+As a developer I would like to have JS code fully covered with JS unit tests
+eZ Studio Installation Guide
+Landing page FieldType Guide
+As an editor I would like to see the now time indicator in the timeline when scheduling content inside a schedule block
+As a user, I want to be able to choose an existing draft when editing any content
+As a user, I want to send my content to the trash
+As a user, I want to be able to use the Timeline Toolbar in View Mode
+As a Studio UI developer I would like to have JS unit tests updated and running
+As AU I would like to send a content to review
+As an editor I would like to see a preview of schedule block when creating a new dynamic landing page
+As a user I want to save a draft of my new landing pages or delete the draft
+As a user I want to select the page layout and parameters of a landing page upfront in a popupwindow
+As an editor I would like to see live preview of blocks content when editing a landing page
+As an editor I would like to see live preview of blocks content when creating/editing a landing page
+As a user I would like to use timeline to schedule changes on a landing page in Landing Page Creator
+As a user I would like to see content overflowing schedule blocks when creating a landing page
+As an editor I would like to be noticed when I am saving a new landing page with schedule block slots not completely filled with articles
+As an editor I would like to see the timeline updated when selecting a schedule block
+As a user I would like to pick a content from Recent History when creating a Schedule Block
+As a Developer I want to implement landing page field field template
+As a User I want to display Landing Page content using templates
+Dynamic page content type
+As a Developer I want to be able to create and edit Landing Page
+As an editor I want to edit and save a Schedule Block in a dynamic landing page
+As a Developer I want to deploy the eZ Event site bundle on production server protected behind a htaccess password for the eZ Conference website
+As an eZ Developer, I want to have my development environment ready to work with the eZ event site bundle
+As an eZ Developer, I want to migrate and test the eZ Event site bundle on 5.4
+As an eZ Developer, I want to have the eZ event site bundle in a GitHub repository
+As an editor in insite editing mode on a landing page - EDIT mode on, I can create new blocks in any zone from the list of block available in the action bar.
+As a user, I want to create a new Content from the INSITE mode
+As a User I want to be able to edit a regular content without PageFieldType from the INSITE
+As a User I want to be able to navigate the site in the IN-SITE EDITING tab when editing is OFF
+As a User I want to jump from raw content view to Insite view of the content
+As a User I want to turn on/off insite editing mode
+As a user in insite editing mode, when I create a new landing page, I can choose a layout and the landing page creator accommodatesthe working area to selected option
+As a user in Insite editing mode on a landing page, when I switch EDIT mode on, I can see the different zones and blocks constituting the page and I have access to the list of block available in the right tool bar.
+As a user in Insite editing mode on a landing page - EDIT mode, I can move blocks within one zone and move blocks across zones.
+As a user in insite editing mode on a landing page - EDIT mode on, I can delete blocks.
+As a user, I want a popup to choose which content I can create in Insite Editing
+As an editor, I can edit an Embed block on a dynamic landing page
+As an editor, I can edit an RSS Block in a dynamic landing page
+User should not be able to edit a landing page with the past state
+Create release notes for Studio 1.0.0 stable
+No indicator on the timeline despite changes on the page
+As an Editor I want initial user manual for Static Page Editing
+As a user, I want to view other versions of my content
+Schedule Block new algorithm implementation
+As a user, I want to create new content when adding specific blocks in Page mode
+As a user, I want to create content from the eZ Dashboard
+Send for review landing pages in Page mode
+As a developer I would like to extend the blocks toolbar with new blocks with custom UI interface
+As a user I would like to see the loading screen covering whole app
+As an user, I want to be able to log in
+As an user, I want to be able to register
+Remove search prototype from requirements
+Preview Button for content in Scheduled Blocks is not working

@@ -1,0 +1,710 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canScanThrough
+	Domain: :Visitor
+	Range: :SearchResult
+
+ObjectProperty: :hasIntroduction
+	Domain: :ABC
+	Range: :ABCIntroduction
+
+ObjectProperty: :hasForm
+	Domain: :Contact
+	Range: :ContactForm
+
+ObjectProperty: :hasNews
+	Domain: :ABC
+	Range: :ABCNews
+
+ObjectProperty: :hasPage
+	Domain: :Profile
+	Range: :ProfilePage
+
+ObjectProperty: :canUpdate
+	Domain: :Administrator
+	Range: :Content
+
+ObjectProperty: :canStayOn
+	Domain: :Visitor
+	Range: :Date
+
+ObjectProperty: :canRemove1
+	Domain: :Administrator
+	Range: :User
+
+ObjectProperty: :canRemove2
+	Domain: :Administrator
+	Range: :MediumElement
+
+ObjectProperty: :canRemove3
+	Domain: :User
+	Range: :Information
+
+ObjectProperty: :hasResult
+	Domain: :Search
+	Range: :SearchResult
+
+ObjectProperty: :canReturnTo
+	Domain: :Visitor
+	Range: :SearchResult
+
+ObjectProperty: :canClickOn
+	Domain: :Visitor
+	Range: :ProfileCard
+
+ObjectProperty: :hasPlot
+	Domain: :Event
+	Range: :EventPlot
+
+ObjectProperty: :canBan
+	Domain: :Administrator
+	Range: :User
+
+ObjectProperty: :canSet
+	Domain: :User
+	Range: :Password
+
+ObjectProperty: :hasHomepage
+	Domain: :Experience
+	Range: :ExperienceHomepage
+
+ObjectProperty: :canGet
+	Domain: :User
+	Range: :Access
+
+ObjectProperty: :hasLocation1
+	Domain: :Plot
+	Range: :PlotLocation
+
+ObjectProperty: :hasLocation2
+	Domain: :Event
+	Range: :EventLocation
+
+ObjectProperty: :canSee1
+	Domain: :Administrator
+	Range: :List
+
+ObjectProperty: :canSee2
+	Domain: :Visitor
+	Range: :List
+
+ObjectProperty: :canSee3
+	Domain: :Visitor
+	Range: :Overview
+
+ObjectProperty: :canSee4
+	Domain: :Visitor
+	Range: :Content
+
+ObjectProperty: :canSee5
+	Domain: :Visitor
+	Range: :Map
+
+ObjectProperty: :canSee6
+	Domain: :User
+	Range: :PlotLocation
+
+ObjectProperty: :hasReset
+	Domain: :Password
+	Range: :PasswordReset
+
+ObjectProperty: :canSearchThrough
+	Domain: :Administrator
+	Range: :List
+
+ObjectProperty: :hasGallery
+	Domain: :Medium
+	Range: :MediumGallery
+
+ObjectProperty: :hasCard
+	Domain: :Profile
+	Range: :ProfileCard
+
+ObjectProperty: :canDelete1
+	Domain: :Administrator
+	Range: :Event
+
+ObjectProperty: :canDelete2
+	Domain: :Administrator
+	Range: :NewsItem
+
+ObjectProperty: :canDelete3
+	Domain: :Administrator
+	Range: :Album
+
+ObjectProperty: :canDelete4
+	Domain: :Administrator
+	Range: :Content
+
+ObjectProperty: :canDelete5
+	Domain: :User
+	Range: :Content
+
+ObjectProperty: :canDelete6
+	Domain: :Administrator
+	Range: :Person
+
+ObjectProperty: :canKeep1
+	Domain: :Administrator
+	Range: :Date
+
+ObjectProperty: :canKeep2
+	Domain: :Administrator
+	Range: :NewsSection
+
+ObjectProperty: :canKeep3
+	Domain: :Administrator
+	Range: :Album
+
+ObjectProperty: :canIdentify
+	Domain: :Visitor
+	Range: :Person
+
+ObjectProperty: :canEdit1
+	Domain: :Administrator
+	Range: :Detail
+
+ObjectProperty: :canEdit2
+	Domain: :Administrator
+	Range: :Event
+
+ObjectProperty: :canEdit3
+	Domain: :Administrator
+	Range: :NewsItem
+
+ObjectProperty: :canEdit4
+	Domain: :Administrator
+	Range: :MediumElement
+
+ObjectProperty: :canEdit5
+	Domain: :Administrator
+	Range: :Information
+
+ObjectProperty: :canEdit6
+	Domain: :User
+	Range: :Content
+
+ObjectProperty: :canEdit7
+	Domain: :Administrator
+	Range: :Person
+
+ObjectProperty: :hasItem
+	Domain: :News
+	Range: :NewsItem
+
+ObjectProperty: :canContinueTo
+	Domain: :Visitor
+	Range: :ABCExperience
+
+ObjectProperty: :canNavigate1
+	Domain: :Visitor
+	Range: :Site
+
+ObjectProperty: :canNavigate2
+	Domain: :Visitor
+	Range: :MediumCategory
+
+ObjectProperty: :canManage1
+	Domain: :Administrator
+	Range: :User
+
+ObjectProperty: :canManage2
+	Domain: :Administrator
+	Range: :List
+
+ObjectProperty: :canManage3
+	Domain: :Administrator
+	Range: :MediumGallery
+
+ObjectProperty: :canManage4
+	Domain: :Administrator
+	Range: :People
+
+ObjectProperty: :canNavigateTo
+	Domain: :Visitor
+	Range: :Profile
+
+ObjectProperty: :canContact
+	Domain: :Visitor
+	Range: :Administrator
+
+ObjectProperty: :hasElement
+	Domain: :Medium
+	Range: :MediumElement
+
+ObjectProperty: :canView1
+	Domain: :Visitor
+	Range: :Information
+
+ObjectProperty: :canView2
+	Domain: :Visitor
+	Range: :MediumElement
+
+ObjectProperty: :canView3
+	Domain: :Visitor
+	Range: :Medium
+
+ObjectProperty: :canView4
+	Domain: :Visitor
+	Range: :MediumGallery
+
+ObjectProperty: :canView5
+	Domain: :Visitor
+	Range: :Story
+
+ObjectProperty: :canView6
+	Domain: :Visitor
+	Range: :Profile
+
+ObjectProperty: :canView7
+	Domain: :User
+	Range: :Map
+
+ObjectProperty: :canView8
+	Domain: :User
+	Range: :EventLocation
+
+ObjectProperty: :canView9
+	Domain: :Visitor
+	Range: :ExperienceHomepage
+
+ObjectProperty: :canView10
+	Domain: :Visitor
+	Range: :ABCIntroduction
+
+ObjectProperty: :canClose
+	Domain: :Visitor
+	Range: :Profile
+
+ObjectProperty: :canBe
+	Domain: :User
+	Range: :Password
+
+ObjectProperty: :canSearchFor
+	Domain: :Visitor
+	Range: :People
+
+ObjectProperty: :canSelect1
+	Domain: :Visitor
+	Range: :Album
+
+ObjectProperty: :canSelect2
+	Domain: :Visitor
+	Range: :Category
+
+ObjectProperty: :hasCategory
+	Domain: :Medium
+	Range: :MediumCategory
+
+ObjectProperty: :canRequest
+	Domain: :User
+	Range: :PasswordReset
+
+ObjectProperty: :hasAddress
+	Domain: :Email
+	Range: :EmailAddress
+
+ObjectProperty: :canKnow
+	Domain: :Visitor
+	Range: :Location
+
+ObjectProperty: :canOrder
+	Domain: :Visitor
+	Range: :SearchResult
+
+ObjectProperty: :canFind1
+	Domain: :Administrator
+	Range: :User
+
+ObjectProperty: :canFind2
+	Domain: :User
+	Range: :EventLocation
+
+ObjectProperty: :canAdd1
+	Domain: :Administrator
+	Range: :Event
+
+ObjectProperty: :canAdd2
+	Domain: :Administrator
+	Range: :NewsItem
+
+ObjectProperty: :canAdd3
+	Domain: :Administrator
+	Range: :MediumElement
+
+ObjectProperty: :canAdd4
+	Domain: :Administrator
+	Range: :Album
+
+ObjectProperty: :canAdd5
+	Domain: :Administrator
+	Range: :Content
+
+ObjectProperty: :canAdd6
+	Domain: :User
+	Range: :Description
+
+ObjectProperty: :canAdd7
+	Domain: :User
+	Range: :Fragment
+
+ObjectProperty: :canAdd8
+	Domain: :User
+	Range: :Video
+
+ObjectProperty: :canAdd9
+	Domain: :User
+	Range: :Image
+
+ObjectProperty: :canAdd10
+	Domain: :User
+	Range: :Text
+
+ObjectProperty: :canAdd11
+	Domain: :User
+	Range: :Content
+
+ObjectProperty: :canAdd12
+	Domain: :Administrator
+	Range: :Person
+
+ObjectProperty: :hasSection
+	Domain: :News
+	Range: :NewsSection
+
+ObjectProperty: :canUse1
+	Domain: :Visitor
+	Range: :ContactForm
+
+ObjectProperty: :canUse2
+	Domain: :User
+	Range: :EmailAddress
+
+ObjectProperty: :canOpen1
+	Domain: :Visitor
+	Range: :Page
+
+ObjectProperty: :canOpen2
+	Domain: :Visitor
+	Range: :View
+
+ObjectProperty: :canOpen3
+	Domain: :Visitor
+	Range: :Map
+
+ObjectProperty: :canOpen4
+	Domain: :User
+	Range: :Map
+
+ObjectProperty: :canOpen5
+	Domain: :Visitor
+	Range: :ProfilePage
+
+ObjectProperty: :canNavigateThrough
+	Domain: :Visitor
+	Range: :Album
+
+ObjectProperty: :hasDatabase
+	Domain: :ABC
+	Range: :ABCDatabase
+
+ObjectProperty: :canClick
+	Domain: :User
+	Range: :PlotLocation
+
+ObjectProperty: :canRegister
+	Domain: :Visitor
+	Range: :Myself
+
+ObjectProperty: :hasExperience
+	Domain: :ABC
+	Range: :ABCExperience
+
+ObjectProperty: :canReview1
+	Domain: :Visitor
+	Range: :Information
+
+ObjectProperty: :canReview2
+	Domain: :Visitor
+	Range: :Result
+
+ObjectProperty: :canReview3
+	Domain: :Visitor
+	Range: :Profile
+
+# Classes
+Class: :Visitor
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Site
+
+
+Class: :Page
+
+
+Class: :ContactForm
+	SubClassOf: :Form
+	Annotations:
+		rdfs:label "Contact Form"
+
+Class: :Form
+
+
+Class: :Contact
+
+
+Class: :Administrator
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :EmailAddress
+	SubClassOf: :Address
+	Annotations:
+		rdfs:label "Email Address"
+
+Class: :Address
+
+
+Class: :Email
+
+
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Detail
+
+
+Class: :List
+
+
+Class: :Password
+
+
+Class: :PasswordReset
+	SubClassOf: :Reset
+	Annotations:
+		rdfs:label "Password Reset"
+
+Class: :Reset
+
+
+Class: :Access
+
+
+Class: :Myself
+
+
+Class: :Event
+
+
+Class: :Content
+
+
+Class: :Date
+
+
+Class: :NewsItem
+	SubClassOf: :Item
+	Annotations:
+		rdfs:label "News Item"
+
+Class: :Item
+
+
+Class: :News
+
+
+Class: :NewsSection
+	SubClassOf: :Section
+	Annotations:
+		rdfs:label "News Section"
+
+Class: :Section
+
+
+Class: :ABCNews
+	SubClassOf: :News
+	Annotations:
+		rdfs:label "ABC News"
+
+Class: :ABC
+
+
+Class: :MediumElement
+	SubClassOf: :Element
+	Annotations:
+		rdfs:label "Medium Element"
+
+Class: :Element
+
+
+Class: :Medium
+
+
+Class: :Album
+
+
+Class: :MediumGallery
+	SubClassOf: :Gallery
+	Annotations:
+		rdfs:label "Medium Gallery"
+
+Class: :Gallery
+
+
+Class: :Information
+
+
+Class: :MediumCategory
+	SubClassOf: :Category
+	Annotations:
+		rdfs:label "Medium Category"
+
+Class: :Category
+
+
+Class: :Overview
+
+
+Class: :ProfilePage
+	SubClassOf: :Page
+	Annotations:
+		rdfs:label "Profile Page"
+
+Class: :Profile
+
+
+Class: :Description
+
+
+Class: :Fragment
+
+
+Class: :Video
+
+
+Class: :Image
+
+
+Class: :Text
+
+
+Class: :SearchResult
+	SubClassOf: :Result
+	Annotations:
+		rdfs:label "Search Result"
+
+Class: :Result
+
+
+Class: :Search
+
+
+Class: :Story
+
+
+Class: :View
+
+
+Class: :EventPlot
+	SubClassOf: :Plot
+	Annotations:
+		rdfs:label "Event Plot"
+
+Class: :Plot
+
+
+Class: :Map
+
+
+Class: :Location
+
+
+Class: :Person
+
+
+Class: :ABCDatabase
+	SubClassOf: :Database
+	Annotations:
+		rdfs:label "ABC Database"
+
+Class: :Database
+
+
+Class: :People
+
+
+Class: :PlotLocation
+	SubClassOf: :Location
+	Annotations:
+		rdfs:label "Plot Location"
+
+Class: :EventLocation
+	SubClassOf: :Location
+	Annotations:
+		rdfs:label "Event Location"
+
+Class: :ProfileCard
+	SubClassOf: :Card
+	Annotations:
+		rdfs:label "Profile Card"
+
+Class: :Card
+
+
+Class: :ExperienceHomepage
+	SubClassOf: :Homepage
+	Annotations:
+		rdfs:label "Experience Homepage"
+
+Class: :Homepage
+
+
+Class: :Experience
+
+
+Class: :ABCExperience
+	SubClassOf: :Experience
+	Annotations:
+		rdfs:label "ABC Experience"
+
+Class: :ABCIntroduction
+	SubClassOf: :Introduction
+	Annotations:
+		rdfs:label "ABC Introduction"
+
+Class: :Introduction
+
+
+Class: :Menu
+
+
+Class: :Link
+
+
+Class: :Admin
+	Annotations:
+		rdfs:comment "Functional Role"
+

@@ -1,0 +1,537 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :hasFile
+	Domain: :EAD
+	Range: :EADFile
+
+ObjectProperty: :hasInformation1
+	Domain: :Agent
+	Range: :AgentInformation
+
+ObjectProperty: :hasInformation2
+	Domain: :Subject
+	Range: :SubjectInformation
+
+ObjectProperty: :hasInformation3
+	Domain: :Description
+	Range: :DescriptionInformation
+
+ObjectProperty: :hasInformation4
+	Domain: :Location
+	Range: :LocationInformation
+
+ObjectProperty: :hasManager
+	Domain: :Repository
+	Range: :RepositoryManager
+
+ObjectProperty: :hasData
+	Domain: :EAD
+	Range: :EADData
+
+ObjectProperty: :canControl
+	Domain: :SystemAdministrator
+	Range: :Location
+
+ObjectProperty: :canReset
+	Domain: :ApplicationAdministrator
+	Range: :Password
+
+ObjectProperty: :canImport1
+	Domain: :Archivist
+	Range: :EADFile
+
+ObjectProperty: :canImport2
+	Domain: :Archivist
+	Range: :Resource
+
+ObjectProperty: :canImport3
+	Domain: :Archivist
+	Range: :AgentInformation
+
+ObjectProperty: :canImport4
+	Domain: :Archivist
+	Range: :Agent
+
+ObjectProperty: :canImport5
+	Domain: :Archivist
+	Range: :EADData
+
+ObjectProperty: :hasRole
+	Domain: :Manager
+	Range: :ManagerRole
+
+ObjectProperty: :hasSpecialist
+	Domain: :Migration
+	Range: :MigrationSpecialist
+
+ObjectProperty: :hasRecord1
+	Domain: :MARCXML
+	Range: :MARCXMLRecord
+
+ObjectProperty: :hasRecord2
+	Domain: :Agent
+	Range: :AgentRecord
+
+ObjectProperty: :hasRecord3
+	Domain: :Resource
+	Range: :ResourceRecord
+
+ObjectProperty: :hasRecord4
+	Domain: :Subject
+	Range: :SubjectRecord
+
+ObjectProperty: :canCreate1
+	Domain: :Administrator
+	Range: :UserAccount
+
+ObjectProperty: :canCreate2
+	Domain: :Archivist
+	Range: :ManagementSubrecord
+
+ObjectProperty: :canCreate3
+	Domain: :Archivist
+	Range: :ManagementStatement
+
+ObjectProperty: :canCreate4
+	Domain: :RepositoryManager
+	Range: :Update
+
+ObjectProperty: :canCreate5
+	Domain: :Archivist
+	Range: :AgentRecord
+
+ObjectProperty: :canCreate6
+	Domain: :Archivist
+	Range: :ResourceRecord
+
+ObjectProperty: :hasString
+	Domain: :Identifier
+	Range: :IdentifierString
+
+ObjectProperty: :hasResource
+	Domain: :Level
+	Range: :LevelResource
+
+ObjectProperty: :canUnderstand
+	Domain: :Archivist
+	Range: :Import
+
+ObjectProperty: :canUpload
+	Domain: :Archivist
+	Range: :EAD
+
+ObjectProperty: :canAssign1
+	Domain: :Archivist
+	Range: :Identifier
+
+ObjectProperty: :canAssign2
+	Domain: :RepositoryManager
+	Range: :User
+
+ObjectProperty: :canAssign3
+	Domain: :Archivist
+	Range: :Level
+
+ObjectProperty: :canAssign4
+	Domain: :Archivist
+	Range: :LocationInformation
+
+ObjectProperty: :canStore
+	Domain: :MigrationSpecialist
+	Range: :AT
+
+ObjectProperty: :canAdd1
+	Domain: :Archivist
+	Range: :Notes
+
+ObjectProperty: :canAdd2
+	Domain: :Archivist
+	Range: :Data
+
+ObjectProperty: :canAuthenticate
+	Domain: :User
+	Range: :LDAP
+
+ObjectProperty: :canSearchWithin
+	Domain: :Archivist
+	Range: :Repository
+
+ObjectProperty: :hasStatement
+	Domain: :Management
+	Range: :ManagementStatement
+
+ObjectProperty: :hasSubrecord
+	Domain: :Management
+	Range: :ManagementSubrecord
+
+ObjectProperty: :canAssociate1
+	Domain: :Archivist
+	Range: :IdentifierString
+
+ObjectProperty: :canAssociate2
+	Domain: :Archivist
+	Range: :Instance
+
+ObjectProperty: :canAssociate3
+	Domain: :Archivist
+	Range: :SubjectRecord
+
+ObjectProperty: :canRearrange1
+	Domain: :Archivist
+	Range: :Hierarchy
+
+ObjectProperty: :canRearrange2
+	Domain: :Archivist
+	Range: :DescriptionHierarchy
+
+ObjectProperty: :canView1
+	Domain: :Researcher
+	Range: :Aid
+
+ObjectProperty: :canView2
+	Domain: :Read
+	Range: :Description
+
+ObjectProperty: :hasHierarchy
+	Domain: :Description
+	Range: :DescriptionHierarchy
+
+ObjectProperty: :hasAdministrator1
+	Domain: :Application
+	Range: :ApplicationAdministrator
+
+ObjectProperty: :hasAdministrator2
+	Domain: :System
+	Range: :SystemAdministrator
+
+ObjectProperty: :canSee
+	Domain: :Archivist
+	Range: :View
+
+ObjectProperty: :canSpecify
+	Domain: :Archivist
+	Range: :Source
+
+ObjectProperty: :canDeclare
+	Domain: :SystemAdministrator
+	Range: :ManagerRole
+
+ObjectProperty: :hasDescription
+	Domain: :Resource
+	Range: :ResourceDescription
+
+ObjectProperty: :hasAccount
+	Domain: :User
+	Range: :UserAccount
+
+ObjectProperty: :canExport1
+	Domain: :Archivist
+	Range: :AgentRecord
+
+ObjectProperty: :canExport2
+	Domain: :Archivist
+	Range: :Description
+
+# Classes
+Class: :Researcher
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Aid
+
+
+Class: :ApplicationAdministrator
+	SubClassOf: :Administrator
+	Annotations:
+		rdfs:label "Application Administrator",
+		rdfs:comment "Functional Role"
+
+Class: :Administrator
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Application
+
+
+Class: :Password
+
+
+Class: :EADFile
+	SubClassOf: :File
+	Annotations:
+		rdfs:label "EAD File"
+
+Class: :File
+
+
+Class: :EAD
+
+
+Class: :Archivist
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Identifier
+
+
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :LDAP
+
+
+Class: :MigrationSpecialist
+	SubClassOf: :Specialist
+	Annotations:
+		rdfs:label "Migration Specialist",
+		rdfs:comment "Functional Role"
+
+Class: :Specialist
+
+
+Class: :Migration
+
+
+Class: :AT
+
+
+Class: :IdentifierString
+	SubClassOf: :String
+	Annotations:
+		rdfs:label "Identifier String"
+
+Class: :String
+
+
+Class: :Import
+
+
+Class: :MARCXMLRecord
+	SubClassOf: :Record
+	Annotations:
+		rdfs:label "MARCXML Record"
+
+Class: :Record
+
+
+Class: :MARCXML
+
+
+Class: :Resource
+
+
+Class: :View
+
+
+Class: :AgentInformation
+	SubClassOf: :Information
+	Annotations:
+		rdfs:label "Agent Information"
+
+Class: :Information
+
+
+Class: :Agent
+
+
+Class: :AgentRecord
+	SubClassOf: :Record
+	Annotations:
+		rdfs:label "Agent Record"
+
+Class: :SubjectInformation
+	SubClassOf: :Information
+	Annotations:
+		rdfs:label "Subject Information"
+
+Class: :Subject
+
+
+Class: :RepositoryManager
+	SubClassOf: :Manager
+	Annotations:
+		rdfs:label "Repository Manager",
+		rdfs:comment "Functional Role"
+
+Class: :Manager
+
+
+Class: :Repository
+
+
+Class: :Notes
+
+
+Class: :UserAccount
+	SubClassOf: :Account
+	Annotations:
+		rdfs:label "User Account"
+
+Class: :Account
+
+
+Class: :LevelResource
+	SubClassOf: :Resource
+	Annotations:
+		rdfs:label "Level Resource"
+
+Class: :Level
+
+
+Class: :Data
+
+
+Class: :SystemAdministrator
+	SubClassOf: :Administrator
+	Annotations:
+		rdfs:label "System Administrator",
+		rdfs:comment "Functional Role"
+
+Class: :System
+
+
+Class: :Location
+
+
+Class: :ManagementSubrecord
+	SubClassOf: :Subrecord
+	Annotations:
+		rdfs:label "Management Subrecord"
+
+Class: :Subrecord
+
+
+Class: :Management
+
+
+Class: :Hierarchy
+
+
+Class: :DescriptionHierarchy
+	SubClassOf: :Hierarchy
+	Annotations:
+		rdfs:label "Description Hierarchy"
+
+Class: :Description
+
+
+Class: :Instance
+
+
+Class: :ManagementStatement
+	SubClassOf: :Statement
+	Annotations:
+		rdfs:label "Management Statement"
+
+Class: :Statement
+
+
+Class: :EADData
+	SubClassOf: :Data
+	Annotations:
+		rdfs:label "EAD Data"
+
+Class: :Update
+
+
+Class: :DescriptionInformation
+	SubClassOf: :Information
+	Annotations:
+		rdfs:label "Description Information"
+
+Class: :Read
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :ManagerRole
+	SubClassOf: :Role
+	Annotations:
+		rdfs:label "Manager Role"
+
+Class: :Role
+
+
+Class: :Source
+
+
+Class: :ResourceRecord
+	SubClassOf: :Record
+	Annotations:
+		rdfs:label "Resource Record"
+
+Class: :SubjectRecord
+	SubClassOf: :Record
+	Annotations:
+		rdfs:label "Subject Record"
+
+Class: :ResourceDescription
+	SubClassOf: :Description
+	Annotations:
+		rdfs:label "Resource Description"
+
+Class: :LocationInformation
+	SubClassOf: :Information
+	Annotations:
+		rdfs:label "Location Information"
+
+Class: :Access
+
+
+Class: :List
+
+
+Class: :Developer
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Engineer
+
+
+Class: :Configuration
+
+
+Class: :Object
+
+
+Class: :Implementation
+
+
+Class: :Importer
+
+
+Class: :AuthenticatedUser
+	Annotations:
+		rdfs:label "Authenticated User",
+		rdfs:comment "Functional Role"
+
+Class: :DeploymentEngineer
+	Annotations:
+		rdfs:label "Deployment Engineer",
+		rdfs:comment "Functional Role"
+
+Class: :BasicEntry
+	Annotations:
+		rdfs:label "Basic Entry",
+		rdfs:comment "Functional Role"
+

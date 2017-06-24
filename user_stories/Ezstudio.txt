@@ -1,0 +1,54 @@
+As an eZ Studio developer I would like to generate blocks based on data fetched from a server when editing a landing page
+Create user documentation for Flex Workflow
+As an editor I would like to edit an existing dynamic landing page
+As an Editor I would like to have a readable documentation for end user.
+As a user I would like to set up an airtime in Schedule Block
+As a Developer I want blocks to be unit tested
+As a Developer I want input data for page field type to be validated
+As a User I want to configure block templates using semantic configuration
+As an editor I would like to create a dynamic landing page
+As a User I want to have eZ Studio alpha builds
+As a Developer I want to fetch list of blocks and their attributes
+As a Developer I want to be able to persist Landing Page to database using XML format
+As a Developer I want to use interface that defines block type
+As an eZ Studio developer I would like to use models to describe landing page
+As a User I want to use the newsletter subscription on the conference program to subscribe to the ez.no newsletter
+As a User I want a new layout and design for the conference program
+As a Developer I want to have configuration for zone definition
+As an editor, I can create a JS/html block in a dynamic landing page
+As an Editor I would like have a desc of Dynamic Page elements (blocks)
+As an editor I would like to create a custom HTML/JS block in the dynamic landing page editor/creator
+As an editor I want to create a Schedule Block in a dynamic landing page
+As a Developer I want to write Landing Page FieldType specification
+As an editor, I can create an Embed block on a dynamic landing page
+As an editor, I can create an RSS Block in a dynamic landing page
+Remove duplicate images in Demo bundle for the editor
+As a user I would like to see different content versions button in the Studio Toolbar
+As an Editor I would like have a desc of Studio Toolbar (Top Action bar) in the initial eZ Studio user manual
+Back end for the scheduled block
+Render the eZ Studio Toolbar once instead of re-rendering everytime the active view changes
+As a developer I want a StaticPageField type and a StaticPage content type to use for this specific content.
+As a user, I want to drag and drop and edit basic textual content in a static page
+As a user, I want to drag and drop an image or a video in a static page
+As a Developer I want to have first StudioUIBundle skeleton created
+Backend for publishing a dynamic landing page
+Back end for the landing page RSS block type
+Back end for the generic content embed block
+As an editor in insite mode, I can create a dynamic landing page
+As an Editor I would like initial user manual for Landing Page management
+As an Editor I would like initial user manual on Insite Editing
+Create create/publish button and add it to the top action bar
+As a user I would like to publish a static page.
+As a user I would like to have a create static page button in the Studio sidebar
+As an editor, I can publish a dynamic landing page.
+As an editor, I would like to see the top action bar in the eZ Studio insite mode
+As a user I would like to see a top bar with options when in the Static Page Creator
+As a user I would like to have a panel in the action bar where I can access and edit META information of the edited page
+As a User I would like to have guidelines helping me to align the content inside Static Page Editor
+As a user I would like to see view/edit button in the top action bar
+Back-end for the dynamic landing page schedule block type
+As a user I want to have a top action bar available in eZ Studio
+As a user I would like to define the sandbox/workspace dimensions in the Static Page Creator
+As a user I would like to see the SERP's preview in the Basics group in Static Page Creator
+As a user I want to use a prototype of a static page management
+as an eZ Studio user I want to use a login screen that says Welcome to eZ Studio

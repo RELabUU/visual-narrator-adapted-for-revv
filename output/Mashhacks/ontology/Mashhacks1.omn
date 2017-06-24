@@ -1,0 +1,313 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/mashhacks.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/mashhacks.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "Mashhacks",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :canRead
+	Domain: :User
+	Range: :What
+
+ObjectProperty: :canSee1
+	Domain: :User
+	Range: :Amount
+
+ObjectProperty: :canSee2
+	Domain: :User
+	Range: :Temperature
+
+ObjectProperty: :canSee3
+	Domain: :User
+	Range: :FlightNumber
+
+ObjectProperty: :canSee4
+	Domain: :User
+	Range: :Time
+
+ObjectProperty: :canSee5
+	Domain: :User
+	Range: :Graph
+
+ObjectProperty: :canSee6
+	Domain: :User
+	Range: :Direction
+
+ObjectProperty: :canSee7
+	Domain: :User
+	Range: :Explanation
+
+ObjectProperty: :canFind
+	Domain: :User
+	Range: :Flight
+
+ObjectProperty: :canMeasure
+	Domain: :User
+	Range: :Amount
+
+ObjectProperty: :canCompare
+	Domain: :Airline
+	Range: :FlightRecord
+
+ObjectProperty: :canLookAtDuring
+	Domain: :User
+	Range: :TurbulenceRecord
+
+ObjectProperty: :canAlert
+	Domain: :User
+	Range: :Turbulence
+
+ObjectProperty: :canKnow1
+	Domain: :User
+	Range: :What
+
+ObjectProperty: :canKnow2
+	Domain: :User
+	Range: :WeatherCondition
+
+ObjectProperty: :canKnow3
+	Domain: :User
+	Range: :Expectation
+
+ObjectProperty: :canKnow4
+	Domain: :User
+	Range: :Pressure
+
+ObjectProperty: :canKnow5
+	Domain: :User
+	Range: :Air
+
+ObjectProperty: :canKnow6
+	Domain: :User
+	Range: :Longer
+
+ObjectProperty: :canKnow7
+	Domain: :User
+	Range: :World
+
+ObjectProperty: :canKnow8
+	Domain: :User
+	Range: :Gate
+
+ObjectProperty: :canKnow9
+	Domain: :User
+	Range: :Weather
+
+ObjectProperty: :canKnow10
+	Domain: :User
+	Range: :Plane
+
+ObjectProperty: :canKnow11
+	Domain: :User
+	Range: :Cause
+
+ObjectProperty: :hasCondition
+	Domain: :Weather
+	Range: :WeatherCondition
+
+ObjectProperty: :hasData
+	Domain: :Turbulence
+	Range: :TurbulenceData
+
+ObjectProperty: :canSearchBy1
+	Domain: :User
+	Range: :FlightNumber
+
+ObjectProperty: :canSearchBy2
+	Domain: :User
+	Range: :Route
+
+ObjectProperty: :canPreview
+	Domain: :User
+	Range: :Sound
+
+ObjectProperty: :hasName
+	Domain: :Flight
+	Range: :FlightName
+
+ObjectProperty: :hasRecord1
+	Domain: :Turbulence
+	Range: :TurbulenceRecord
+
+ObjectProperty: :hasRecord2
+	Domain: :Flight
+	Range: :FlightRecord
+
+ObjectProperty: :canKnowAbout
+	Domain: :User
+	Range: :Sound
+
+ObjectProperty: :canLookThrough
+	Domain: :User
+	Range: :Library
+
+ObjectProperty: :hasNumber
+	Domain: :Flight
+	Range: :FlightNumber
+
+ObjectProperty: :canGather
+	Domain: :Airline
+	Range: :TurbulenceData
+
+ObjectProperty: :canLook1
+	Domain: :User
+	Range: :Information
+
+ObjectProperty: :canLook2
+	Domain: :User
+	Range: :FlightName
+
+ObjectProperty: :canAlertTo
+	Domain: :User
+	Range: :Turbulence
+
+# Classes
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Information
+
+
+Class: :What
+
+
+Class: :WeatherCondition
+	SubClassOf: :Condition
+	Annotations:
+		rdfs:label "Weather Condition"
+
+Class: :Condition
+
+
+Class: :Weather
+
+
+Class: :Expectation
+
+
+Class: :TurbulenceRecord
+	SubClassOf: :Record
+	Annotations:
+		rdfs:label "Turbulence Record"
+
+Class: :Record
+
+
+Class: :Turbulence
+
+
+Class: :Pressure
+
+
+Class: :Air
+
+
+Class: :Longer
+
+
+Class: :World
+
+
+Class: :Amount
+
+
+Class: :TurbulenceData
+	SubClassOf: :Data
+	Annotations:
+		rdfs:label "Turbulence Data"
+
+Class: :Data
+
+
+Class: :Airline
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :FlightRecord
+	SubClassOf: :Record
+	Annotations:
+		rdfs:label "Flight Record"
+
+Class: :Flight
+
+
+Class: :FlightNumber
+	SubClassOf: :Number
+	Annotations:
+		rdfs:label "Flight Number"
+
+Class: :Number
+
+
+Class: :FlightName
+	SubClassOf: :Name
+	Annotations:
+		rdfs:label "Flight Name"
+
+Class: :Name
+
+
+Class: :Temperature
+
+
+Class: :Gate
+
+
+Class: :Route
+
+
+Class: :Plane
+
+
+Class: :Time
+
+
+Class: :Library
+
+
+Class: :Sound
+
+
+Class: :Cause
+
+
+Class: :Graph
+
+
+Class: :Direction
+
+
+Class: :Explanation
+
+
+Class: :Pilot
+
+
+Class: :Journey
+
+
+Class: :Ear
+
+
+Class: :Moment
+
+
+Class: :Location
+
+

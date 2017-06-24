@@ -1,0 +1,331 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :hasMode1
+	Domain: :Content
+	Range: :ContentMode
+
+ObjectProperty: :hasMode2
+	Domain: :Editing
+	Range: :EditingMode
+
+ObjectProperty: :hasMode3
+	Domain: :Insite
+	Range: :InsiteMode
+
+ObjectProperty: :hasMode4
+	Domain: :Page
+	Range: :PageMode
+
+ObjectProperty: :canCreate1
+	Domain: :User
+	Range: :Content
+
+ObjectProperty: :canCreate2
+	Domain: :User
+	Range: :Draft
+
+ObjectProperty: :canCreate3
+	Domain: :Developer
+	Range: :LandingPage
+
+ObjectProperty: :canCreate4
+	Domain: :EditingMode
+	Range: :Block
+
+ObjectProperty: :canJumpFrom
+	Domain: :User
+	Range: :Content
+
+ObjectProperty: :hasLayout
+	Domain: :Page
+	Range: :PageLayout
+
+ObjectProperty: :hasEditing
+	Domain: :Insite
+	Range: :InsiteEditing
+
+ObjectProperty: :canCreateIn
+	Domain: :User
+	Range: :InsiteEditing
+
+ObjectProperty: :canSelect
+	Domain: :User
+	Range: :PageLayout
+
+ObjectProperty: :canDelete
+	Domain: :EditingMode
+	Range: :Block
+
+ObjectProperty: :canView
+	Domain: :User
+	Range: :Version
+
+ObjectProperty: :canHave1
+	Domain: :User
+	Range: :AdministratorAccount
+
+ObjectProperty: :canHave2
+	Domain: :User
+	Range: :ContentType
+
+ObjectProperty: :canHave3
+	Domain: :Administrator
+	Range: :Access
+
+ObjectProperty: :canHave4
+	Domain: :User
+	Range: :UserProfile
+
+ObjectProperty: :hasAccount
+	Domain: :Administrator
+	Range: :AdministratorAccount
+
+ObjectProperty: :canSend
+	Domain: :User
+	Range: :Content
+
+ObjectProperty: :hasDeveloper
+	Domain: :eZ
+	Range: :eZDeveloper
+
+ObjectProperty: :canEdit1
+	Domain: :User
+	Range: :LandingPage
+
+ObjectProperty: :canEdit2
+	Domain: :User
+	Range: :Content
+
+ObjectProperty: :canUse
+	Domain: :User
+	Range: :TimelineToolbar
+
+ObjectProperty: :canChoose1
+	Domain: :User
+	Range: :Draft
+
+ObjectProperty: :canChoose2
+	Domain: :EditingMode
+	Range: :Layout
+
+ObjectProperty: :canMove
+	Domain: :InsiteMode
+	Range: :Block
+
+ObjectProperty: :canSee
+	Domain: :InsiteMode
+	Range: :Zone
+
+ObjectProperty: :hasPage
+	Domain: :Landing
+	Range: :LandingPage
+
+ObjectProperty: :canNotifyAbout
+	Domain: :User
+	Range: :Content
+
+ObjectProperty: :hasToolbar
+	Domain: :Timeline
+	Range: :TimelineToolbar
+
+ObjectProperty: :hasContent
+	Domain: :Page
+	Range: :PageContent
+
+ObjectProperty: :hasProfile
+	Domain: :User
+	Range: :UserProfile
+
+ObjectProperty: :canSave
+	Domain: :User
+	Range: :Draft
+
+ObjectProperty: :canTurn
+	Domain: :User
+	Range: :EditingMode
+
+ObjectProperty: :hasType
+	Domain: :Content
+	Range: :ContentType
+
+ObjectProperty: :canDisplay
+	Domain: :User
+	Range: :PageContent
+
+# Classes
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Content
+
+
+Class: :LandingPage
+	SubClassOf: :Page
+	Annotations:
+		rdfs:label "Landing Page"
+
+Class: :Page
+
+
+Class: :Landing
+
+
+Class: :Draft
+
+
+Class: :AdministratorAccount
+	SubClassOf: :Account
+	Annotations:
+		rdfs:label "Administrator Account"
+
+Class: :Account
+
+
+Class: :Administrator
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :ContentType
+	SubClassOf: :Type
+	Annotations:
+		rdfs:label "Content Type"
+
+Class: :Type
+
+
+Class: :Access
+
+
+Class: :UserProfile
+	SubClassOf: :Profile
+	Annotations:
+		rdfs:label "User Profile"
+
+Class: :Profile
+
+
+Class: :ContentMode
+	SubClassOf: :Mode
+	Annotations:
+		rdfs:label "Content Mode"
+
+Class: :Mode
+
+
+Class: :TimelineToolbar
+	SubClassOf: :Toolbar
+	Annotations:
+		rdfs:label "Timeline Toolbar"
+
+Class: :Toolbar
+
+
+Class: :Timeline
+
+
+Class: :PageLayout
+	SubClassOf: :Layout
+	Annotations:
+		rdfs:label "Page Layout"
+
+Class: :Layout
+
+
+Class: :PageContent
+	SubClassOf: :Content
+	Annotations:
+		rdfs:label "Page Content"
+
+Class: :Developer
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :eZDeveloper
+	SubClassOf: :Developer
+	Annotations:
+		rdfs:label "eZ Developer",
+		rdfs:comment "Functional Role"
+
+Class: :eZ
+
+
+Class: :EditingMode
+	SubClassOf: :Mode
+	Annotations:
+		rdfs:label "Editing Mode",
+		rdfs:comment "Functional Role"
+
+Class: :Editing
+
+
+Class: :Block
+
+
+Class: :InsiteMode
+	SubClassOf: :Mode
+	Annotations:
+		rdfs:label "Insite Mode",
+		rdfs:comment "Functional Role"
+
+Class: :Insite
+
+
+Class: :Zone
+
+
+Class: :InsiteEditing
+	SubClassOf: :Editing
+	Annotations:
+		rdfs:label "Insite Editing"
+
+Class: :Version
+
+
+Class: :PageMode
+	SubClassOf: :Mode
+	Annotations:
+		rdfs:label "Page Mode"
+
+Class: :Install
+
+
+Class: :Bundle
+
+
+Class: :Editor
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :View
+
+
+Class: :Template
+
+
+Class: :List
+
+
+Class: :Bar
+
+

@@ -1,0 +1,662 @@
+# Generated with Visual Narrator
+Prefix: : <http://fakesite.org/system.owl#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: onto: <http://fakesite.org/system.owl#>
+
+Ontology: <:>
+
+Annotations:
+	dc:title "System",
+	dc:creator "Visual Narrator",
+	rdfs:comment "Generated with Visual Narrator"
+
+AnnotationProperty: dc:creator
+
+AnnotationProperty: dc:title
+
+
+# Relationships
+ObjectProperty: :hasStory
+	Domain: :User
+	Range: :UserStory
+
+ObjectProperty: :hasSubmitter
+	Domain: :Agency
+	Range: :AgencySubmitter
+
+ObjectProperty: :hasEngagement
+	Domain: :User
+	Range: :UserEngagement
+
+ObjectProperty: :hasVisitor
+	Domain: :Github
+	Range: :GithubVisitor
+
+ObjectProperty: :hasWebsite
+	Domain: :Beta
+	Range: :BetaWebsite
+
+ObjectProperty: :hasAward1
+	Domain: :Data
+	Range: :DataAward
+
+ObjectProperty: :hasAward2
+	Domain: :Contract
+	Range: :ContractAward
+
+ObjectProperty: :hasDeveloper
+	Domain: :Beta
+	Range: :BetaDeveloper
+
+ObjectProperty: :hasCreator
+	Domain: :Data
+	Range: :DataCreator
+
+ObjectProperty: :canReview1
+	Domain: :BetaMember
+	Range: :Wireframes/mockup
+
+ObjectProperty: :canReview2
+	Domain: :BetaDeveloper
+	Range: :Wireframes/mockup
+
+ObjectProperty: :hasBeta
+	Domain: :Open
+	Range: :OpenBeta
+
+ObjectProperty: :canSee1
+	Domain: :GithubSite
+	Range: :Layout
+
+ObjectProperty: :canSee2
+	Domain: :GithubUser
+	Range: :Branding
+
+ObjectProperty: :canSee3
+	Domain: :BetaWebsite
+	Range: :Update
+
+ObjectProperty: :canSee4
+	Domain: :GithubUser
+	Range: :Logo
+
+ObjectProperty: :canSee5
+	Domain: :GithubUser
+	Range: :Graphic/timeline
+
+ObjectProperty: :canSee6
+	Domain: :OpenBeta
+	Range: :Option
+
+ObjectProperty: :canSee7
+	Domain: :CFO
+	Range: :Visualization
+
+ObjectProperty: :canSee8
+	Domain: :OpenbetaUser
+	Range: :Example
+
+ObjectProperty: :canSee9
+	Domain: :GithubUser
+	Range: :ActLogo
+
+ObjectProperty: :canSee10
+	Domain: :DataCreator
+	Range: :DataBroker
+
+ObjectProperty: :canSee11
+	Domain: :DataCreator
+	Range: :File
+
+ObjectProperty: :canSee12
+	Domain: :BetaUser
+	Range: :Wireframes
+
+ObjectProperty: :canSee13
+	Domain: :User
+	Range: :Link
+
+ObjectProperty: :canSee14
+	Domain: :OpenBeta
+	Range: :Footer
+
+ObjectProperty: :canSee15
+	Domain: :OpenBeta
+	Range: :Header
+
+ObjectProperty: :canSee16
+	Domain: :AgencyUser
+	Range: :Information
+
+ObjectProperty: :canSee17
+	Domain: :OpenbetaUser
+	Range: :Wireframes
+
+ObjectProperty: :canSee18
+	Domain: :BetaUser
+	Range: :Money
+
+ObjectProperty: :canSee19
+	Domain: :AgencySubmitter
+	Range: :Dashboard
+
+ObjectProperty: :canSee20
+	Domain: :DataConsumer
+	Range: :Number
+
+ObjectProperty: :canSee21
+	Domain: :Recipient
+	Range: :Factor
+
+ObjectProperty: :canCommentOn
+	Domain: :BetaUser
+	Range: :Them
+
+ObjectProperty: :canCoordinate
+	Domain: :OpenBeta
+	Range: :Development
+
+ObjectProperty: :hasImplementation
+	Domain: :Act
+	Range: :ActImplementation
+
+ObjectProperty: :canUnderstand1
+	Domain: :Member
+	Range: :Process
+
+ObjectProperty: :canUnderstand2
+	Domain: :GithubUser
+	Range: :ImplementationTeam
+
+ObjectProperty: :canUnderstand3
+	Domain: :GithubUser
+	Range: :ActImplementation
+
+ObjectProperty: :canUnderstand4
+	Domain: :Citizen
+	Range: :Connection
+
+ObjectProperty: :canUnderstand5
+	Domain: :GithubVisitor
+	Range: :Difference
+
+ObjectProperty: :hasLogo
+	Domain: :Act
+	Range: :ActLogo
+
+ObjectProperty: :hasConsumer
+	Domain: :Data
+	Range: :DataConsumer
+
+ObjectProperty: :canDiscover
+	Domain: :BetaUser
+	Range: :Content
+
+ObjectProperty: :canPlanFor
+	Domain: :OpenBeta
+	Range: :Development
+
+ObjectProperty: :hasViewer
+	Domain: :Site
+	Range: :SiteViewer
+
+ObjectProperty: :hasBroker
+	Domain: :Data
+	Range: :DataBroker
+
+ObjectProperty: :hasPlan
+	Domain: :Site
+	Range: :SitePlan
+
+ObjectProperty: :hasUser1
+	Domain: :Github
+	Range: :GithubUser
+
+ObjectProperty: :hasUser2
+	Domain: :Openbeta
+	Range: :OpenbetaUser
+
+ObjectProperty: :hasUser3
+	Domain: :Beta
+	Range: :BetaUser
+
+ObjectProperty: :hasUser4
+	Domain: :Agency
+	Range: :AgencyUser
+
+ObjectProperty: :canCreate1
+	Domain: :OpenBeta
+	Range: :LevelEstimate
+
+ObjectProperty: :canCreate2
+	Domain: :OpenBeta
+	Range: :Timeline
+
+ObjectProperty: :canGive1
+	Domain: :Member
+	Range: :Feedback
+
+ObjectProperty: :canGive2
+	Domain: :DataCreator
+	Range: :Feedback
+
+ObjectProperty: :canProvide1
+	Domain: :OpenBeta
+	Range: :Feedback
+
+ObjectProperty: :canProvide2
+	Domain: :AgencyUser
+	Range: :Feedback
+
+ObjectProperty: :hasMember
+	Domain: :Beta
+	Range: :BetaMember
+
+ObjectProperty: :hasPage1
+	Domain: :Broker
+	Range: :BrokerPage
+
+ObjectProperty: :hasPage2
+	Domain: :Data
+	Range: :DataPage
+
+ObjectProperty: :hasEstimate
+	Domain: :Level
+	Range: :LevelEstimate
+
+ObjectProperty: :canAssess
+	Domain: :DataCreator
+	Range: :Error
+
+ObjectProperty: :canDiscuss
+	Domain: :BetaMember
+	Range: :Grant
+
+ObjectProperty: :canBrowse
+	Domain: :BetaUser
+	Range: :Data
+
+ObjectProperty: :hasSite1
+	Domain: :Github
+	Range: :GithubSite
+
+ObjectProperty: :hasSite2
+	Domain: :Beta
+	Range: :BetaSite
+
+ObjectProperty: :hasSite3
+	Domain: :Openbeta
+	Range: :OpenbetaSite
+
+ObjectProperty: :canGetTo
+	Domain: :SiteViewer
+	Range: :Them
+
+# Classes
+Class: :GithubSite
+	SubClassOf: :Site
+	Annotations:
+		rdfs:label "Github Site",
+		rdfs:comment "Functional Role"
+
+Class: :Site
+
+
+Class: :Github
+
+
+Class: :SitePlan
+	SubClassOf: :Plan
+	Annotations:
+		rdfs:label "Site Plan"
+
+Class: :Plan
+
+
+Class: :Layout
+
+
+Class: :SiteViewer
+	SubClassOf: :Viewer
+	Annotations:
+		rdfs:label "Site Viewer",
+		rdfs:comment "Functional Role"
+
+Class: :Viewer
+
+
+Class: :Them
+
+
+Class: :GithubUser
+	SubClassOf: :User
+	Annotations:
+		rdfs:label "Github User",
+		rdfs:comment "Functional Role"
+
+Class: :User
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :DataBroker
+	SubClassOf: :Broker
+	Annotations:
+		rdfs:label "Data Broker"
+
+Class: :Broker
+
+
+Class: :Data
+
+
+Class: :Branding
+
+
+Class: :ActImplementation
+	SubClassOf: :Implementation
+	Annotations:
+		rdfs:label "Act Implementation"
+
+Class: :Implementation
+
+
+Class: :Act
+
+
+Class: :Member
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Process
+
+
+Class: :BetaWebsite
+	SubClassOf: :Website
+	Annotations:
+		rdfs:label "Beta Website",
+		rdfs:comment "Functional Role"
+
+Class: :Website
+
+
+Class: :Beta
+
+
+Class: :Update
+
+
+Class: :Logo
+
+
+Class: :ImplementationTeam
+	Annotations:
+		rdfs:label "Implementation Team"
+
+Class: :UserEngagement
+	SubClassOf: :Engagement
+	Annotations:
+		rdfs:label "User Engagement"
+
+Class: :Engagement
+
+
+Class: :Graphic/timeline
+
+
+Class: :OpenBeta
+	SubClassOf: :Beta
+	Annotations:
+		rdfs:label "Open Beta",
+		rdfs:comment "Functional Role"
+
+Class: :Open
+
+
+Class: :DataAward
+	SubClassOf: :Award
+	Annotations:
+		rdfs:label "Data Award"
+
+Class: :Award
+
+
+Class: :Option
+
+
+Class: :Feedback
+
+
+Class: :CFO
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Visualization
+
+
+Class: :OpenbetaUser
+	SubClassOf: :User
+	Annotations:
+		rdfs:label "Openbeta User",
+		rdfs:comment "Functional Role"
+
+Class: :Openbeta
+
+
+Class: :Example
+
+
+Class: :ActLogo
+	SubClassOf: :Logo
+	Annotations:
+		rdfs:label "Act Logo"
+
+Class: :DataCreator
+	SubClassOf: :Creator
+	Annotations:
+		rdfs:label "Data Creator",
+		rdfs:comment "Functional Role"
+
+Class: :Creator
+
+
+Class: :Error
+
+
+Class: :File
+
+
+Class: :Citizen
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Connection
+
+
+Class: :BetaUser
+	SubClassOf: :User
+	Annotations:
+		rdfs:label "Beta User",
+		rdfs:comment "Functional Role"
+
+Class: :Wireframes
+
+
+Class: :GithubVisitor
+	SubClassOf: :Visitor
+	Annotations:
+		rdfs:label "Github Visitor",
+		rdfs:comment "Functional Role"
+
+Class: :Visitor
+
+
+Class: :Difference
+
+
+Class: :Link
+
+
+Class: :AgencyUser
+	SubClassOf: :User
+	Annotations:
+		rdfs:label "Agency User",
+		rdfs:comment "Functional Role"
+
+Class: :Agency
+
+
+Class: :UserStory
+	SubClassOf: :Story
+	Annotations:
+		rdfs:label "User Story"
+
+Class: :Story
+
+
+Class: :BetaMember
+	SubClassOf: :Member
+	Annotations:
+		rdfs:label "Beta Member",
+		rdfs:comment "Functional Role"
+
+Class: :Grant
+
+
+Class: :BetaSite
+	SubClassOf: :Site
+	Annotations:
+		rdfs:label "Beta Site"
+
+Class: :Wireframes/mockup
+
+
+Class: :BetaDeveloper
+	SubClassOf: :Developer
+	Annotations:
+		rdfs:label "Beta Developer",
+		rdfs:comment "Functional Role"
+
+Class: :Developer
+
+
+Class: :OpenbetaSite
+	SubClassOf: :Site
+	Annotations:
+		rdfs:label "Openbeta Site"
+
+Class: :ContractAward
+	SubClassOf: :Award
+	Annotations:
+		rdfs:label "Contract Award"
+
+Class: :Contract
+
+
+Class: :LevelEstimate
+	SubClassOf: :Estimate
+	Annotations:
+		rdfs:label "Level Estimate"
+
+Class: :Estimate
+
+
+Class: :Level
+
+
+Class: :Development
+
+
+Class: :Timeline
+
+
+Class: :Footer
+
+
+Class: :Header
+
+
+Class: :BrokerPage
+	SubClassOf: :Page
+	Annotations:
+		rdfs:label "Broker Page"
+
+Class: :Page
+
+
+Class: :Information
+
+
+Class: :DataPage
+	SubClassOf: :Page
+	Annotations:
+		rdfs:label "Data Page"
+
+Class: :Money
+
+
+Class: :AgencySubmitter
+	SubClassOf: :Submitter
+	Annotations:
+		rdfs:label "Agency Submitter",
+		rdfs:comment "Functional Role"
+
+Class: :Submitter
+
+
+Class: :Dashboard
+
+
+Class: :DataConsumer
+	SubClassOf: :Consumer
+	Annotations:
+		rdfs:label "Data Consumer",
+		rdfs:comment "Functional Role"
+
+Class: :Consumer
+
+
+Class: :Number
+
+
+Class: :Recipient
+	Annotations:
+		rdfs:comment "Functional Role"
+
+Class: :Factor
+
+
+Class: :Content
+
+
+Class: :Homepage
+
+
+Class: :Team
+
+
+Class: :Notification
+
+
+Class: :Future
+
+
+Class: :Work
+
+
+Class: :Release
+
+
+Class: :Artifact
+
+
+Class: :Summary
+
+
+Class: :Need
+	Annotations:
+		rdfs:comment "Functional Role"
+
