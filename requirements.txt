@@ -1,5 +1,5 @@
 numpy==1.10.1
 pandas==0.17.1
 spacy==0.98
-Django==1.9
+Django>=1.9.13
 Jinja2==2.8
